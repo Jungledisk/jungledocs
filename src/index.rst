@@ -5,7 +5,8 @@ Jungle Disk User Guide
 .. toctree::
    :maxdepth: 2
    :caption: Table Of Contents
-
+   :numbered:
+   
    002_ListOfFigures
    003_WhatIsJD
    004_HowDoesJDWork
