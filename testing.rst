@@ -2,7 +2,8 @@
 Welcome to Sarah's documentation!
 =================================
 
-Hello?
+
+
 
 Writing some test lines ... *This should be italicized* ... **Bold** If code, use ``literal``
 
@@ -23,20 +24,31 @@ Text here ... starting a quoted paragraph ...
 
 Here as well ...
 
+
 Link to `jungledisk.com <http://www.jungledisk.com/>`_
 
+.. _hello2:
 
-Indices and tables
-==================
+Hello Here ...
+==============
 
-* :ref:`genindex`
+* :ref:`hello2`
 * :ref:`modindex`
 * :ref:`search`
 
+.. _more1:
+
 More_1
-------
+======
 
 More
 ====
 
 Hello
+
+.. figure:: _static/kitten.jpeg
+ :width: 200px
+ :align: center
+
+
+ kitten
