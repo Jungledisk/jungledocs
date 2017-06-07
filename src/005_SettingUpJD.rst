@@ -11,10 +11,29 @@ Version 3.21
 **Mac** | 10.9 (Mavericks) or newer.
 
 **Linux** | Ubuntu (recommended), Fedora, CentOS, RHEL.
+|br| x86, 64 bit system
+|br| Gnome, KDE, Cinnamon, or XFCE desktop. You may also need to install Fuse.
+|br| While it is possible that other configurations may work, only those listed above are fully supported.
+
++------------+------------+
+| Most Distributions   | CentOS 6   |
++============+============+
+| libfuse2 (>= 2.8.6) | fuse-libs >= 2.8.3  |
++------------+------------+
+| libacl1 (>= 2.2.51-1) | libacl >= 2.2.49  |
++------------+------------+
+| body row 3 | Cells may  |
++------------+ span rows. |
+| body row 4 |            |
++------------+------------+
+
+.. See `this article <https://support.jungledisk.com/hc/en-us/articles/200812234-Linux-System-Requirements/>`_ for more information on Linux setup.
 
 
 Installation
 ======================
+
+All versions are available for download on https://www.jungledisk.com/downloads/.
 
 Windows
 -------
@@ -23,7 +42,7 @@ Windows
 #. Click "Save File" on the pop-up.
 #. If the install package doesn't open on its own, check your browser's downloads area for the .msi file and open it.
 #. A pop-up will appear. Click "Run".
-#. The setup wizard will appear. Accept the End-User License Agreement, and select a drive to install the software on. We recommend using the K: drive letter or after in the alphabet to avoid conflict with external drives like USBs.
+#. The setup wizard will appear. Accept the End-User License Agreement, and select a drive to install the software on.
 #. Once the software is installed, a prompt to restart will appear. You must restart to continue setting up the software.
 
 Mac
@@ -41,11 +60,46 @@ Mac
 
 Linux
 -----
-`Select DEB, RPM, or TAR. <https://www.jungledisk.com/downloads/>`_
-See `this article <https://support.jungledisk.com/hc/en-us/articles/200812234-Linux-System-Requirements/>`_
-for more information on Linux setup.
+`Select RPM, DEB, or TAR. <https://www.jungledisk.com/downloads/>`_
 
-.. Expand on Linux install directions (cannot find in support site)
+RPM
+^^^
+*The example operating system in these instructions is Fedora with the GNOME desktop environment.*
+
+**Via GUI**
+
+1. Select the Linux RPM Workgroup download.
+
+2. Once the package has downloaded, open and install it. Follow the prompts on screen.
+
+.. image:: _static/005/rpm.png
+  :width: 700px
+
+|br|
+**Via Terminal**
+
+1. Use wget to download the installer package. Check our `downloads page <https://www.jungledisk.com/downloads/>`_ for the most recent version, and copy the link address.
+::
+
+  wget https://downloads.jungledisk.com/jungledisk/junglediskworkgroup-3211-0.x86_64.rpm
+
+2. Once downloaded, run the installation command. You can also use your desktop GUI to start the apps (this may require you to log-out and log-in.)
+::
+
+dnf install junglediskserver
+
+3. Enter "Y" to approve the install.
+
+4. Configure the settings file.
+
+.. comment .......add how to config setting file when figured out
+
+
+
+DEB
+^^^
+
+.. Expand on Linux install directions https://support.jungledisk.com/hc/en-us/articles/115000012814-Updating-to-Jungle-Disk-3-20-for-Mac-and-Linux
 
 Apple iOS
 ---------
@@ -63,18 +117,18 @@ Administrator Setup
 =======================
 **This setup must be completed before users can login to the software.**
 
-Administrators manage Users' access and general important information. Read on to learn how to do essential administrator tasks.
+Administrators manage users' access and general important information. Read on to learn how to do essential administrator tasks.
 
 *Terms To Know:*
 |br| *User:* A non-administrative user who will be using software to backup files and access files stored through Jungle Disk. The domain you set and their username/password will be what they use to verify their account with our software.
 |br| *Online Disk:* Main storage point for Jungle Disk, this is where files and backups are stored. Accounts can have multiple Online Disks that can be accessed by one or many Users. Administrators can set "permissions" for users' access to disks.
 
 **1. The Control Panel**
-The Jungle Disk Control Panel is a secure site where you can perform administrator tasks. Think of it as the “bookkeeping” part of your Jungle Disk experience. We recommend bookmarking your Control Panel for easy access. Note your username and password and keep them a safe place.
+|br| The Jungle Disk Control Panel is a secure site where you can perform administrator tasks. Think of it as the “bookkeeping” part of your Jungle Disk experience. We recommend bookmarking your Control Panel for easy access. Note your username and password and keep them a safe place.
 
-'You can access the Control Panel here <https://secure.jungledisk.com/secure/account/>'_ Use the email address and password you used during the sign-up process.
+`You can access the Control Panel here <https://secure.jungledisk.com/secure/account/>`_. Use the email address and password you used during the sign-up process.
 
-This will be the page you will use whenever you need to:
+This will be the page to use whenever you need to:
 
 * Check your Invoices
 * Update your Billing Information
@@ -84,25 +138,25 @@ This will be the page you will use whenever you need to:
 * Check Usage/Backup Reporting
 
 **2. Domain Setup**
-After logging into the Control Panel, click the admin drop down in the upper right corner. Select "Domain", then enter the name you'd like to use for your domain.
+|br| After logging into the Control Panel, click the admin drop down in the upper right corner. Select "Domain", then enter the name you'd like to use for your domain.
 
-* The "domain" field will be used to log into Jungle Disk and into Web Access (Web Access is an Online tool used to view data you've uploaded to the Network Drive).
+* The "domain" field will be used to log into Jungle Disk and into :ref:`web`. (Web Access is an Online tool used to view data you've uploaded to the Network Drive).
 
 .. comment.... link within document to Web Access when section is complete & link relevant info
 
 * For the domain name, you can use anything you wish as long as it is not already taken. We suggest using something easy to remember and representative of you, your team, or your company. Take note of this once you create it, as you will need this during the software configuration.
 
-.. image:: _static/Domain.png
+.. image:: _static/005/Domain.png
 
 **3. User Setup**
 
 .. Note:: Only Administrators can create User accounts.
 
-Now that the domain is set, you need to create a User. If you'll be using Jungle Disk across a team, you may need to create several users.
+Now that the domain is set, you need to create a user. If you'll be using Jungle Disk across a team, you may need to create several users.
 
 From the main page, click "Manage Users & Permissions". Under the "Create a New User" heading, assign a username, password, and tags (optional, but may be helpful if you're setting up for a team). Tags are used if you want to sort your team members into separate reports; such as finance, marketing, etc. Users will not see their tag or know that their account is tagged.
 
-.. image:: _static/users.png
+.. image:: _static/005/users.png
 
 .. Note:: Jungle Disk doesn't store Online Disk passwords, so we cannot recover them if they are forgotten. Keep a copy of your password in a secure place!
 
@@ -114,14 +168,36 @@ There are also other options, such as the storage provider, location, and additi
 
 Click the "Create New User" button to complete this step. Within 5 minutes, you'll be able to log into our software and Web Access with this username. To quickly get to your Web Access site, on the top of the Control Panel, click on the Online Disk drop down, then Web Access.
 
-.. image:: _static/newusers.png
+.. image:: _static/005/newusers.png
 
 **4. Online Disk Setup**
-After you have set up your user(s), you may want to create additional online disks for you or your other users to access.
+|br| After you have set up your user(s), you may want to create additional online disks for you or your other users to access.
 
 This is particularly useful in a team-based environment if you have two groups who need to access different sets of data. Your financial department may not need access to your developers' content, so you can set up a separate Online Disk for each group.
 
 To create a new Online Disk, Click the "Online Disk" drop down on the top of the Control Panel. Next, select "Manage/Add Online Disks". You may want to use a name that represent the content of that disk; such as, "Finance" or "Documents." The name of a disk cannot be changed after it's created.
+
+.. image:: _static/005/41.png
+
+You may select one user to get data usage reports in the "Storage Provider" section. Usage reports update you on the status of your backups in two ways: one reports the amount of data stored in an Online Disk, and the other reports how much data each user is storing on the disk. To read more about usage reports, jump to :ref:`backup`.
+
+**5. Adding Users to Online Disks**
+
+.. Note:: You can ignore this section if you only wanted to have a single username (this account is just for you) and you opted to create your Online Disk via the "Private Online Disk" option when setting up your username.
+
+|br| If you will have more than one user accessing an Online Disk, you will need to manually apply access rights for those users. Access can be set up in three different sections in the Control Panel; one example is included below.
+
+1. Click on the "Users" drop down, then Manage Users.
+|br| 2. Select the user that need access applied.
+|br| 3. Under the "Online Disk Access" heading select an Online Disk, select the desired level of access, click the "Add" button.
+
+.. image:: _static/005/caleb.png
+
+
+|br|
+Congratulations! You have finished setting up your account. Read on to start backing up your data.
+
+
 
 .. |br| raw:: html
 

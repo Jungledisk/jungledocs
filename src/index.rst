@@ -6,7 +6,7 @@ Jungle Disk User Guide
    :maxdepth: 2
    :caption: Table Of Contents
    :numbered:
-   
+
    002_ListOfFigures
    003_WhatIsJD
    004_HowDoesJDWork
@@ -23,5 +23,6 @@ Jungle Disk User Guide
    015_SyncFolders
    016_InBrowserAccess
    017_StoringPrevVersions
+   017.5_UpdatingJD
    018_ProductSummary
    019_Glossary

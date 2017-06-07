@@ -1,3 +1,4 @@
-=================
-In-Browser Access
+.. _web:
+
+Web Access
 =================
