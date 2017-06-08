@@ -1,3 +1,8 @@
 ====================
 Updating Jungle Disk
 ====================
+mac/linux 3.20
+https://support.jungledisk.com/hc/en-us/articles/115000012814-Updating-to-Jungle-Disk-3-20-for-Mac-and-Linux
+
+3.16 windows and screenshots for windows/mac
+https://support.jungledisk.com/hc/en-us/articles/204150844-Updating-Your-Jungle-Disk-Software-Version

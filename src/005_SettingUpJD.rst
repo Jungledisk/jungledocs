@@ -10,22 +10,24 @@ Version 3.21
 
 **Mac** | 10.9 (Mavericks) or newer.
 
-**Linux** | Ubuntu (recommended), Fedora, CentOS, RHEL.
-|br| x86, 64 bit system
+**Linux** | Ubuntu (12.04, 14.04, 16.04), Fedora (23, 24, 25), CentOS (6, 7), RHEL (6, 7).
+|br| x86, 64 bit system.
 |br| Gnome, KDE, Cinnamon, or XFCE desktop. You may also need to install Fuse.
 |br| While it is possible that other configurations may work, only those listed above are fully supported.
 
-+------------+------------+
-| Most Distributions   | CentOS 6   |
-+============+============+
-| libfuse2 (>= 2.8.6) | fuse-libs >= 2.8.3  |
-+------------+------------+
-| libacl1 (>= 2.2.51-1) | libacl >= 2.2.49  |
-+------------+------------+
-| body row 3 | Cells may  |
-+------------+ span rows. |
-| body row 4 |            |
-+------------+------------+
+======================  ==================
+Most Distributions      CentOS 6
+======================  ==================
+libfuse2 (>= 2.8.6)     fuse-libs >= 2.8.3
+libacl1 (>= 2.2.51-1)   libacl >= 2.2.49
+libc6 (>= 2.15)         glibc >= 2.12
+libgcc1 (>= 1:4.6.3)    libgcc >= 4.4.7
+libstdc++6 (>= 4.6.3)   libstdc++ >= 4.4.7
+zlib1g (>= 1:1.2.0)     zlib >= 1.2.3
+psmisc (>=22.15-1)      psmisc >= 22.6
+libgtk2.0-0 (>=2.24.10  gtk2 >= 2.24.10
+libnotify4 (>=0.7.5     libnotify >= 0.5.0
+======================  ==================
 
 .. See `this article <https://support.jungledisk.com/hc/en-us/articles/200812234-Linux-System-Requirements/>`_ for more information on Linux setup.
 
@@ -34,6 +36,9 @@ Installation
 ======================
 
 All versions are available for download on https://www.jungledisk.com/downloads/.
+
+For Linux CentOS 6, please download the CentOS 6 version `here <https://secure.jungledisk.com/secure/account/downloads.aspx>`_ .
+
 
 Windows
 -------
@@ -61,12 +66,14 @@ Mac
 Linux
 -----
 `Select RPM, DEB, or TAR. <https://www.jungledisk.com/downloads/>`_
+|br| For Linux CentOS 6, please download the CentOS 6 version `here <https://secure.jungledisk.com/secure/account/downloads.aspx>`_.
 
-RPM
-^^^
-*The example operating system in these instructions is Fedora with the GNOME desktop environment.*
+RPM-Based Systems
+^^^^^^^^^^^^^^^^^
+*The example operating system for RPM is Fedora with the GNOME desktop environment.*
 
-**Via GUI**
+
+|br| **Via GUI**
 
 1. Select the Linux RPM Workgroup download.
 
@@ -78,7 +85,7 @@ RPM
 |br|
 **Via Terminal**
 
-1. Use wget to download the installer package. Check our `downloads page <https://www.jungledisk.com/downloads/>`_ for the most recent version, and copy the link address.
+1. Use wget to download the installer package. Check our `downloads page <https://www.jungledisk.com/downloads/>`_ for the most recent version, and copy the link address of that version.
 ::
 
   wget https://downloads.jungledisk.com/jungledisk/junglediskworkgroup-3211-0.x86_64.rpm
@@ -96,8 +103,28 @@ dnf install junglediskserver
 
 
 
-DEB
-^^^
+DEB-Based Systems
+^^^^^^^^^^^^^^^^^
+**Via Terminal**
+
+1. Use wget to download the installer package. Check our `downloads page <https://www.jungledisk.com/downloads/>`_ for the most recent version, and copy the link address of that version.
+::
+
+  wget https://downloads.jungledisk.com/jungledisk/junglediskworkgroup_321-1_amd64.deb
+
+2. Once downloaded, run the installation command. You can also use your desktop GUI to start the apps (this may require you to log-out and log-in.)
+::
+
+sudo dpkg -i junglediskworkgroup_321-1_amd64.deb
+
+3. Configure the settings file.
+
+**Via GUI**
+
+1. Download the right package from our `downloads page <https://www.jungledisk.com/downloads/>`_ for Linux DEB Workgroup.
+
+2. Once the package has downloaded (likely to your downloads folder), open it up and you will be given the option to install. Click the install button and follow the prompts on screen
+
 
 .. Expand on Linux install directions https://support.jungledisk.com/hc/en-us/articles/115000012814-Updating-to-Jungle-Disk-3-20-for-Mac-and-Linux
 
