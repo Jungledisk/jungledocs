@@ -70,7 +70,7 @@ Linux
 
 RPM-Based Systems
 ^^^^^^^^^^^^^^^^^
-*The example operating system for RPM is Fedora with the GNOME desktop environment.*
+*The example RPM-based system used here is Fedora with the GNOME desktop environment.*
 
 
 |br| **Via GUI**
@@ -99,12 +99,51 @@ dnf install junglediskserver
 
 4. Configure the settings file.
 
-.. comment .......add how to config setting file when figured out
-
-
-
 DEB-Based Systems
 ^^^^^^^^^^^^^^^^^
+
+**If you have not installed Jungle Disk on an Ubuntu/Unity system before, there are a few additional steps that you will need to perform in order for Jungle Disk to function properly. These steps are necessary to utilize a "System Tray" that will appear in the top-right corner of your menu bar on your desktop.**
+
+**12.04**
+
+1. Open up Terminal and run the following command
+::
+
+  sudo apt-get install dconf-tools
+
+2. Open dconf Editor (app installed by the previous command) and go to desktop > unity > panel.
+3. Add ‘jungledisk’ (surrounded by single-quotes) within the systray-whitelist on the right.
+4. You can now close terminal and continue either the GUI or terminal steps below.
+
+**14.04 & 16.04**
+
+1. Open up Terminal and run the following command to add a PPA (Personal Package Archives) to your apt repository list:
+::
+
+  sudo apt-add-repository ppa:fixnix/indicator-systemtray-unity
+
+2. Next, run:
+::
+
+  sudo apt-get update
+
+3. Now, run the following command to install the package:
+::
+
+  sudo apt-get install indicator-systemtray-unity
+
+
+Log out of the current session and login again. When you install Jungle Disk, the system tray should now show up.
+
+**Via GUI**
+
+1. Download DEB Linux Workgroup from our `downloads page. <https://www.jungledisk.com/downloads/>`_
+
+2. Once the package has downloaded (likely to your downloads folder), open it up and you will be given the option to install. Click the install button and follow the prompts on screen.
+
+
+.. Expand on Linux install directions https://support.jungledisk.com/hc/en-us/articles/115000012814-Updating-to-Jungle-Disk-3-20-for-Mac-and-Linux
+
 **Via Terminal**
 
 1. Use wget to download the installer package. Check our `downloads page <https://www.jungledisk.com/downloads/>`_ for the most recent version, and copy the link address of that version.
@@ -115,18 +154,10 @@ DEB-Based Systems
 2. Once downloaded, run the installation command. You can also use your desktop GUI to start the apps (this may require you to log-out and log-in.)
 ::
 
-sudo dpkg -i junglediskworkgroup_321-1_amd64.deb
+  sudo dpkg -i junglediskworkgroup_321-1_amd64.deb
+
 
 3. Configure the settings file.
-
-**Via GUI**
-
-1. Download the right package from our `downloads page <https://www.jungledisk.com/downloads/>`_ for Linux DEB Workgroup.
-
-2. Once the package has downloaded (likely to your downloads folder), open it up and you will be given the option to install. Click the install button and follow the prompts on screen
-
-
-.. Expand on Linux install directions https://support.jungledisk.com/hc/en-us/articles/115000012814-Updating-to-Jungle-Disk-3-20-for-Mac-and-Linux
 
 Apple iOS
 ---------
