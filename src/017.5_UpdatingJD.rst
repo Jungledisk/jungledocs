@@ -155,31 +155,50 @@ If the existing application is not visible in Ubuntu Software, you will need to 
 |br| **Via Terminal**
 
 1. Check to see if Jungle Disk is already installed:
-..
+
+::
+
+
   dpkg -l | grep jungle
 
 You may need to use yum or another package manager depending on your system configuration.
 
 2. If there is an existing Jungle Disk installation, run a command to remove the package:
-..
+
+::
+
+
   sudo dpkg -r junglediskworkgroup
 
 3. Next, be sure to stop the existing Jungle Disk process: the best way to do this is to first run
-..
+
+::
+
+
   ps aux | grep jungle
 
 and get the PID for the existing process. Then you can run:
-..
+
+::
+
   sudo kill [PID]
 
 Be sure to replace [PID] with the actual PID on your machine.
 
 4. Use wget or something similar to download the new installer package:
-..
+
+::
+
+
   wget https://downloads.jungledisk.com/jungledisk/junglediskserver_3200-0_amd64.deb
 
 Once downloaded, run the installation command: sudo dpkg -i junglediskserver_3200-0_amd64.deb
-Since you had an existing install, there's no need to configure your settings file, so all you need to do is start the service!: sudo /usr/local/bin/junglediskserver
+Since you had an existing install, there's no need to configure your settings file, so all you need to do is start the service!
+
+::
+
+
+  sudo /usr/local/bin/junglediskserver
 
 
 .. |br| raw:: html

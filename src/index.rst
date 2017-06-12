@@ -3,7 +3,7 @@ Jungle Disk User Guide
 ======================
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
    :caption: Table Of Contents
    :numbered:
 
