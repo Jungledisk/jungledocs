@@ -6,17 +6,17 @@ Before you choose a way to store your data, it's important to understand each ty
 
 Network Drive
 =============
-The Network Drive keeps files in the cloud for easy online access. These files are constantly updated to reflect the most current versions on your computer. If your computer gets a virus, though, the corrupted files will overwrite the ones stored in the network drive. For this reason, we always recommend using the backup vault in conjunction with the network drive.
+The network drive keeps files in the cloud for easy online access and editing. These files are constantly updated to reflect the most current versions on your computer. If your computer gets a virus, though, the corrupted files will overwrite the ones stored in the network drive. For this reason, we always recommend using the backup vault in conjunction with the network drive. 
 
-The Network Drive also contains Legacy Backup and Sync Folders.
+The network drive also holds Legacy Backups and Sync Folders. You can access files on the network drive with Web Access.
 
 Legacy Backup
 -------------
-The Legacy Backup is the "meat" of the network drive. It stores full files without compression. So, if you have 15 GB of data within your backup set, you will have at 15 GB of storage space used (not including previous versions). Individual file size is restricted to 5 GB.
+The Legacy Backup is the "meat" of the network drive. It stores full files without compression. For example, if you have 15 GB of data within your backup set, 15 GB of storage space will be used (not including previous versions). Individual file size is restricted to 5 GB. Legacy backup is intended for viewing only, as unwanted file changes or deletions may happen with modification.
 
 Sync Folders
 ------------
-Sync folders are intended to be used by a single user and offer the ability to work with files when offline. They can be used to keep different computers in different locations synced with changes being made (i.e. home/work computer). Multiple users should utilize the Network Drive instead, as Sync Folders do not coordinate well across many machines. The sync process runs every 15 seconds, and for this reason, we recommend 10 GB or less stored on a sync folder. 
+Sync folders are intended to be used by a single user and offer the ability to work with files when offline. They can be used to keep different computers in different locations synced with changes being made (i.e. home/work computer). Multiple users should utilize the Network Drive instead, as Sync Folders do not coordinate well across many machines. The sync process runs every 15 seconds, and for this reason, we recommend 10 GB or less stored on a sync folder.
 
 Backup Vault
 ============
@@ -25,3 +25,20 @@ The Backup Vault compresses and stores your files. Due to the way these files ar
 .. insert comparison chart
 can access complete files online
 safe from viruses
+limit accesss among employees etc
+can many ppl work on file
+is it editable/view only
+
+Backup Vault
+
+File Compression
+Data deduplication
+No file size limit
+
+Network Drive
+
+Accessible via Web Access and the Network Drive
+Shared between multiple users.
+File size limit of 5GB
+
+https://www.jungledisk.com/blog/2016/12/14/powerful-features-of-jungle-disk-backup-vault-and-network-drive/
