@@ -93,7 +93,7 @@ RPM-Based Systems
 2. Once downloaded, run the installation command. You can also use your desktop GUI to start the apps (this may require you to log-out and log-in.)
 ::
 
-dnf install junglediskserver
+  dnf install junglediskworkgroup
 
 3. Enter "Y" to approve the install.
 
@@ -133,7 +133,7 @@ DEB-Based Systems
   sudo apt-get install indicator-systemtray-unity
 
 
-Log out of the current session and login again. When you install Jungle Disk, the system tray should now show up.
+Install Jungle Disk, then log back out, and login again. The system tray will then show up.
 
 **Via GUI**
 
@@ -159,6 +159,20 @@ Log out of the current session and login again. When you install Jungle Disk, th
 
 3. Configure the settings file.
 
+TAR-Based Systems
+^^^^^^^^^^^^^^^^^
+
+1. Download TAR Linux Workgroup from our `downloads page <https://www.jungledisk.com/downloads/>`_
+
+2. TAR requires compiling all parts into one folder. To do this, open up Terminal and enter:
+::
+
+  tar --strip-components=1 -C / -xzvf <package.tar.gz>
+
+Alternatively, extract, then copy everything from the extacted_dir/usr/local to /usr/local.
+
+3. Configure the settings file.
+
 Apple iOS
 ---------
 Download from the `iTunes App Store <https://itunes.apple.com/us/app/jungle-disk/id359523081?mt=8>`_
@@ -180,6 +194,8 @@ Administrators manage users' access and general important information. Read on t
 *Terms To Know:*
 |br| *User:* A non-administrative user who will be using software to backup files and access files stored through Jungle Disk. The domain you set and their username/password will be what they use to verify their account with our software.
 |br| *Online Disk:* Main storage point for Jungle Disk, this is where files and backups are stored. Accounts can have multiple Online Disks that can be accessed by one or many Users. Administrators can set "permissions" for users' access to disks.
+
+If you are a user, you may skip directly to ____ if an administrator has already set up your account.
 
 **1. The Control Panel**
 |br| The Jungle Disk Control Panel is a secure site where you can perform administrator tasks. Think of it as the “bookkeeping” part of your Jungle Disk experience. We recommend bookmarking your Control Panel for easy access. Note your username and password and keep them a safe place.

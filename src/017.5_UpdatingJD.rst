@@ -133,7 +133,7 @@ DEB-Based Systems
 
 1. Open the software management application, in Ubuntu, this is just called "Ubuntu Software"
 
-2.Go to the "installed" tab and find Jungle Disk Workgroup.
+2. Go to the "installed" tab and find Jungle Disk Workgroup.
 
 3. Click "remove," approve the removal, and enter your system password (if needed).
 If the existing application is not visible in Ubuntu Software, you will need to do this via Terminal.
