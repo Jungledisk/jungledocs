@@ -2,7 +2,7 @@
 How Does Jungle Disk Work?
 ==========================
 
-RENAME
+.. RENAME setting up UI or setting up JD, rename the 5 section to setting up acct
 
 
 The *Jungle Disk client is a two part program.
@@ -144,3 +144,48 @@ The “High” option  prompts the user for their password each time the service
  **Remove Configuration:** This option logs you out of the current session and removes all information from within the configuration file, causing the first time setup wizard to start.
 
 **Check for updates automatically:** If disabled, the user will need to check for updates manually.
+
+Account Settings
+================
+**Click Configure, then Account Settings under Application Settings.**
+
+.. figure:: _static/004/ac.png
+Windows.
+
+.. figure:: _static/004/ac2.png
+Mac.
+
+**Account Settings:** This options shows your account details, including the domain and username you are currently logged in with. It also shows the type of Jungle Disk you are running and your subscription status.
+
+**Remove Configuration:** Removes the current account settings and displays the  first time setup wizard.
+
+Network Settings
+================
+
+.. figure:: _static/004/ns.png
+Windows.
+
+.. figure:: _static/004/ns2.png
+Mac.
+
+**Connect using SSL (encrypts all network traffic):** (WINDOWS AND LINUX ONLY)
+Enables SSL.
+
+**Optimize performance...:** May increase performance if the user’s upstream bandwidth is greater than 2 Mbps.
+
+**Use Service Net...:** This can be enabled if the user has a server in the same Rackspace data center that their storage location is held in.
+
+ **Proxy Server Configuration:** Allows the user to configure a proxy.
+
+ Bandwidth Settings
+ ==================
+
+ .. figure:: _static/004/bw.png
+ Windows.
+
+ .. figure:: _static/004/bw2.png
+ Mac.
+
+**Bandwidth Limiting:** When enabled, limits the upload and download bandwidth available.
+
+**Enable upload resume for large files:** Allows file upload to be paused and resumed at a later time. Only upload changed portions of large files: This is another option that does exactly what it says.

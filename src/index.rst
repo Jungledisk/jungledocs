@@ -18,7 +18,6 @@ Jungle Disk User Guide
    010_TheBackupVault
    011_HowDoesTheBackupProcessWork
    012_ConfiguringBackupJobs
-   013_TheNetworkDrive
    014_SavingDataMoney
    015_SyncFolders
    016_InBrowserAccess
