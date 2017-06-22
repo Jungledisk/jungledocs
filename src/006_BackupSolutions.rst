@@ -6,7 +6,7 @@ Before you choose a way to store your data, it's important to understand each ty
 
 Network Drive
 =============
-The network drive keeps files in the cloud for easy online access and editing. These files are constantly updated to reflect the most current versions on your computer. If your computer gets a virus, though, the corrupted files will overwrite the ones stored in the network drive. For this reason, we always recommend using the backup vault in conjunction with the network drive. 
+The network drive keeps files in the cloud for easy online access and editing. These files are constantly updated to reflect the most current versions on your computer. If your computer gets a virus, though, the corrupted files will overwrite the ones stored in the network drive. For this reason, we always recommend using the backup vault in conjunction with the network drive.
 
 The network drive also holds Legacy Backups and Sync Folders. You can access files on the network drive with Web Access.
 
@@ -28,6 +28,7 @@ safe from viruses
 limit accesss among employees etc
 can many ppl work on file
 is it editable/view only
+limitations, ex: sync folders is 100k files or 10 gb
 
 Backup Vault
 

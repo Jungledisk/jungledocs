@@ -20,7 +20,7 @@ Jungle Disk User Guide
    012_ConfiguringBackupJobs
    014_SavingDataMoney
    015_SyncFolders
-   016_InBrowserAccess
+   016_WebAccess
    017_StoringPrevVersions
    017.5_UpdatingJD
    018_ProductSummary

@@ -38,6 +38,7 @@ Mac.
 
 **Drive Type for all Online Disks:** Allows the user to switch the drive type. Set to Removable media device by default.
 
+.. _pv:
 
 Previous Versions
 =================
@@ -46,6 +47,8 @@ Windows.
 
 .. figure:: _static/007/pv2.png
 Mac.
+
+When you change the options below, they apply any time a file is uploaded or changed. So, you should run a Network Drive backup after making changes to ensure they are applied.
 
 What to Keep
 ^^^^^^^^^^^^
@@ -70,4 +73,8 @@ Having this setting enabled will keep the specified amount of previous versions 
 
 **Keep at most [XX] previous versions of each file:** Allows the user to limit the number of previous versions kept per file.
 
-You can read about :ref:`Sync Folders <Sync Folders>` and :ref:`Legacy Backups <Legacy Backup>` in their respective sections. 
+You can read about :ref:`Sync Folders <Sync Folders>` and :ref:`Legacy Backups <Legacy Backup>` in their respective sections.
+
+Accessing Previous Versions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The recommended method to access a previous version is through Restore Files > Network Drive > select “A deleted file or previous version” or “Backup as of” in the Restore From section. Users can also access the  previous versions directly from the network drive by navigating to the “~VersionArchive” folder. This folder shows by  default within web access, however, you must manually enter this path when navigating to this folder from within  the file system.
