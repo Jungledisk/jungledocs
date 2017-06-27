@@ -6,7 +6,7 @@ The network drive offers a convenient way to store and access information. It ca
 
 For convenience, it can also be mapped to one of your computer's drives, allowing for easy synchronization onto the web.
 
-There are a few ways to upload data onto the network drive: via a legacy backup, copying/pasting files from other folders into the network drive, and saving files directly to the network drive from the program creating them (for example, in Word, click Files > Save As > select the network drive as the save destination).
+There are a few ways to upload data onto the network drive: via a Simple Backup, copying/pasting files from other folders into the network drive, and saving files directly to the network drive from the program creating them (for example, in Word, click Files > Save As > select the network drive as the save destination).
 
 .. Note:: Do not use the Cut option with files on the network drive! If an error occurs while the file has been cut, you could lose the file. Instead, use Copy and Paste, then delete the files in the old location.
 
@@ -22,8 +22,8 @@ Mac.
 
 **Retry failed uploads:** Sets the number of attempts Jungle Disk will retry a failed upload. If a file fails to  upload, it will be placed in a “Failed Uploads” folder until it is successfully uploaded in a subsequent attempt.
 
-Setting Up Local Drive Mapping
-==============================
+Local Drive Mapping
+===================
 .. figure:: _static/007/nd3.png
 Windows.
 
@@ -56,7 +56,7 @@ What to Keep
 
 **Keep previous versions of deleted files:** This option enables deleted files to be kept on the online disk for the specified amount of time.
 
-**Keep previous versions for:** Since legacy backups are also stored on the network drive, you can specify if you would like these previous version settings applied to the entire network drive or just legacy backups.
+**Keep previous versions for:** Since [REF] Simple Backups are also stored on the network drive, you can specify if you would like these previous version settings applied to the entire network drive or just Simple Backups.
 
 **Don’t keep previous versions for files over [XX] days:** Allows  the user to set a file size limitation for each previous version. Any file above the allotted amount (100  MB by default) will be purged immediately if it’s deleted. The previous version for any file will also be purged immediately if the file size is above this limit.
 
@@ -73,7 +73,7 @@ Having this setting enabled will keep the specified amount of previous versions 
 
 **Keep at most [XX] previous versions of each file:** Allows the user to limit the number of previous versions kept per file.
 
-You can read about :ref:`Sync Folders <Sync Folders>` and :ref:`Legacy Backups <Legacy Backup>` in their respective sections.
+You can read about :ref:`Sync Folders <Sync Folders>` and :ref:`Simple Backups <Simple Backup>` in their respective sections.
 
 Accessing Previous Versions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^

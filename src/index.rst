@@ -14,7 +14,7 @@ Jungle Disk User Guide
    006_BackupSolutions
    007_NetworkDrive
    008_TheBackupProcess
-   009_LegacyBackup
+   009_SimpleBackup
    010_TheBackupVault
    011_HowDoesTheBackupProcessWork
    012_ConfiguringBackupJobs

@@ -10,9 +10,9 @@ The network drive keeps files in the cloud for easy online access and editing. T
 
 The network drive also holds Legacy Backups and Sync Folders. You can access files on the network drive with Web Access.
 
-Legacy Backup
+Simple Backup
 -------------
-The Legacy Backup is the "meat" of the network drive. It stores full files without compression. For example, if you have 15 GB of data within your backup set, 15 GB of storage space will be used (not including previous versions). Individual file size is restricted to 5 GB. Legacy backup is intended for viewing only, as unwanted file changes or deletions may happen with modification.
+A Simple Backup uploads full files to the Network Drive without compressing them. For example, if you have 15 GB of data within your backup set, 15 GB of storage space will be used (not including previous versions). Individual file size is restricted to 5 GB. Legacy backup is intended for viewing only, as unwanted file changes or deletions may happen with modification.
 
 Sync Folders
 ------------
@@ -29,6 +29,7 @@ limit accesss among employees etc
 can many ppl work on file
 is it editable/view only
 limitations, ex: sync folders is 100k files or 10 gb
+does it automatically update files (net drive yes. simple no.)
 
 Backup Vault
 
