@@ -80,8 +80,5 @@ Configuring Backup Reports
 
   .. image:: _static/012/d9.png
 
-
-
-
 Include configuring backup reports
 https://support.jungledisk.com/hc/en-us/articles/218746157-Configuring-Backup-Reporting-Notifications-Email-RSS-Feeds-

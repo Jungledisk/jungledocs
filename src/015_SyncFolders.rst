@@ -19,23 +19,15 @@ Sync Folder Summary:
 
 Sync Folder Creation
 ====================
-
-.. figure:: _static/015/sf.png
-Windows.
-
-.. figure:: _static/015/sf2.png
-Windows.
-
 .. figure:: _static/015/sf3.png
 Mac.
 
 .. figure:: _static/015/sf4.png
 Mac.
 
-The local sync folder option will set the local folder from the computer that syncs with the network drive. You can either enter a path in manually, or use the Browse option to select the local folder.
+**Local Sync Folder:** The folder where your sync folders are stored locally. You can either enter a path in manually, or use the Browse option to select the local folder.
 
-The Advanced option will allow you to name the sync folder differently than how it may appear locally. You can also
-select the folder to sync up with an existing folder on the network drive.
+**Remote Sync Name:** By default, the name of both folders will match. Click "Advanced..." to change the name, or change a  place to store the folder on the network drive. The name cannot be changed once created. 
 
 What to Sync
 ^^^^^^^^^^^^

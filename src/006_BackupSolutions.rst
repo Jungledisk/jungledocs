@@ -20,12 +20,12 @@ Sync folders are intended to be used by a single user and offer the ability to w
 
 Backup Vault
 ============
-The Backup Vault compresses and stores your files. Due to the way these files are packaged, data backed up to the Backup Vault is only available through the software’s Restore Files section. They cannot be viewed through web access when stored in the backup vault. Since the backup schedule is not instant, your information won't be affected by a virus.
+The Backup Vault compresses and stores your files in the event of data loss. Due to the way these files are packaged, data backed up to the Backup Vault is only available through the software’s Restore Files section. They cannot be viewed through web access when stored in the backup vault. Since the backup schedule is not instant, your information won't be affected by a virus.
 
 .. insert comparison chart
 can access complete files online
 safe from viruses
-limit accesss among employees etc
+limit access among employees etc
 can many ppl work on file
 is it editable/view only
 limitations, ex: sync folders is 100k files or 10 gb
@@ -34,7 +34,7 @@ does it automatically update files (net drive yes. simple no.)
 Backup Vault
 
 File Compression
-Data deduplication
+Data de-duplication
 No file size limit
 
 Network Drive

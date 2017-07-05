@@ -104,4 +104,8 @@ Previous Versions
 
 **Don't keep previous versions for files over [XX] MB in size:** Deletes previous versions for files over the size limit.
 
-**Keep at most [XX] previous versions of each file (regardless of age):**
+**Keep at most [XX] previous versions of each file (regardless of age):** Retains any amount of versions for each file.
+
+Backup Reporting
+^^^^^^^^^^^^^^^^
+This feature allows your administrator to view summaries of backup jobs, and any errors that may occur during them, via email, RSS, or on the web. "Report backup summaries and detailed logs" is recommended, as it provides more information in case of a backup error.

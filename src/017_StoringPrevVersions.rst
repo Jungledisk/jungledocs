@@ -6,4 +6,4 @@ elim
 
 sort into network drive DONE
 backup vault
-legacy backup
+legacy backup/simple backup DONE

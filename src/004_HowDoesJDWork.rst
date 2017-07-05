@@ -4,6 +4,8 @@ How Does Jungle Disk Work?
 
 .. RENAME setting up UI or setting up JD, rename the 5 section to setting up acct
 
+make this actually about data de-dup and incremental backup and place below the network drive or put that into in 011howdoesbackupprocesswork
+
 
 The *Jungle Disk client is a two part program.
 It contains the *Jungle Disk agent, which is the service that gets installed and allows processes to run in the background. This agent communicates with your storage location (Rackspace Cloud File or Amazon) and is responsible for uploading and retrieving files when needed.
