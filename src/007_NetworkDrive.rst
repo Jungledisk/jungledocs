@@ -4,7 +4,7 @@ The Network Drive
 
 The network drive offers a convenient way to store and access information. It can be used to temporarily store files, store files on a permanent basis, or share files with other users.
 
-For convenience, it can also be mapped to one of your computer's drives, allowing for easy synchronization onto the web.
+For convenience, it can also be mapped to one of your computer's drives, allowing for easy synchronization. Any file you place on the mapped drive will automatically upload without additional steps.
 
 There are a few ways to upload data onto the network drive: via a Simple Backup, copying/pasting files from other folders into the network drive, and saving files directly to the network drive from the program creating them (for example, in Word, click Files > Save As > select the network drive as the save destination).
 

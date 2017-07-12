@@ -9,19 +9,16 @@ Jungle Disk User Guide
 
    002_ListOfFigures
    003_WhatIsJD
-   004_HowDoesJDWork
    005_SettingUpJD
+   004_IntrotoJDClient
    006_BackupSolutions
    007_NetworkDrive
-   008_TheBackupProcess
    009_SimpleBackup
    010_TheBackupVault
    011_HowDoesTheBackupProcessWork
    012_ConfiguringBackupJobs
-   014_SavingDataMoney
    015_SyncFolders
    016_WebAccess
-   017_StoringPrevVersions
    017.5_UpdatingJD
    018_ProductSummary
    019_Glossary

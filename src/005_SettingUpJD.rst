@@ -2,6 +2,8 @@
 Setting Up Jungle Disk
 ======================
 
+This section contains important information for first time setup.
+
 System Requirements
 ===================
 Version 3.21
@@ -33,7 +35,7 @@ libnotify4 (>=0.7.5     libnotify >= 0.5.0
 
 
 Installation
-======================
+============
 
 All versions are available for download on https://www.jungledisk.com/downloads/.
 
@@ -187,15 +189,11 @@ Select the USB version `here <hhttps://www.jungledisk.com/downloads/>`_.
 
 Administrator Setup
 =======================
-**This setup must be completed before users can login to the software.**
+**This setup must be completed before users can login to Jungle Disk.**
 
-Administrators manage users' access and general important information. Read on to learn how to do essential administrator tasks.
+Administrators manage users' access. Read on to learn how to do essential administrator tasks.
 
-*Terms To Know:*
-|br| *User:* A non-administrative user who will be using software to backup files and access files stored through Jungle Disk. The domain you set and their username/password will be what they use to verify their account with our software.
-|br| *Online Disk:* Main storage point for Jungle Disk, this is where files and backups are stored. Accounts can have multiple Online Disks that can be accessed by one or many Users. Administrators can set "permissions" for users' access to disks.
-
-If you are a user, you may skip directly to ____ if an administrator has already set up your account.
+If you are a user, you can skip this section. Your administrator will provide your username, password, and domain name.
 
 **1. The Control Panel**
 |br| The Jungle Disk Control Panel is a secure site where you can perform administrator tasks. Think of it as the “bookkeeping” part of your Jungle Disk experience. We recommend bookmarking your Control Panel for easy access. Note your username and password and keep them a safe place.
@@ -224,7 +222,7 @@ This will be the page to use whenever you need to:
 
 **3. User Setup**
 
-.. Note:: Only Administrators can create User accounts.
+.. Note:: Only administrators can create new user accounts.
 
 Now that the domain is set, you need to create a user. If you'll be using Jungle Disk across a team, you may need to create several users.
 
@@ -236,11 +234,11 @@ From the main page, click "Manage Users & Permissions". Under the "Create a New 
 
 If the "Allow User to Change Password" box is checked, users will be allowed to change their passwords without an administrator.
 
-If the "Private Online Disk" check-box is checked, this will create a new Online Disk with the same name as the username. The user will also be given Read/Write access to this Online Disk automatically. Step 4 of this guide will go over how to create Online Disks manually.
+If the "Private Online Disk" check-box is checked, this will create a new Online Disk with the same name as the username. The user will also be given Read/Write access to this Online Disk automatically. Instructions for the creation of other Online Disks are provided in step 4.
 
 There are also other options, such as the storage provider, location, and additional security.
 
-Click the "Create New User" button to complete this step. Within 5 minutes, you'll be able to log into our software and Web Access with this username. To quickly get to your Web Access site, on the top of the Control Panel, click on the Online Disk drop down, then Web Access.
+Click the "Create New User" button to complete this step. Within 5 minutes, you'll be able to log into our software and Web Access with this username. To quickly get to your Web Access site, navigate to the top of the Control Panel, click on the Online Disk drop down, and then Web Access.
 
 .. image:: _static/005/newusers.png
 
@@ -269,7 +267,7 @@ You may select one user to get data usage reports in the "Storage Provider" sect
 
 
 |br|
-Congratulations! You have finished setting up your account. Read on to start backing up your data.
+Congratulations! You have installed the software and finished setting up your account. Read on to start backing up your data.
 
 
 

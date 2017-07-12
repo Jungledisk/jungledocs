@@ -27,7 +27,7 @@ Mac.
 
 **Local Sync Folder:** The folder where your sync folders are stored locally. You can either enter a path in manually, or use the Browse option to select the local folder.
 
-**Remote Sync Name:** By default, the name of both folders will match. Click "Advanced..." to change the name, or change a  place to store the folder on the network drive. The name cannot be changed once created. 
+**Remote Sync Name:** By default, the name of both folders will match. Click "Advanced..." to change the name, or change a  place to store the folder on the network drive. The name cannot be changed once created.
 
 What to Sync
 ^^^^^^^^^^^^

@@ -23,7 +23,7 @@ Limitations
 * 5 GB file limit
 * Cannot backup databases (SQL), Outlook, or system files
 * Old versions of files are stored in full, so take up large amounts of space
-* If moving to a new computer, you must change the file structure to match the old computer, or unnecessary re-uploading will occur
+* If moving to a new computer, you must change the file structure to match the old computer (within the “backups” folder on the network drive), or unnecessary re-uploading will occur
 
 Simple Backup
 =============

@@ -2,17 +2,23 @@
 Backup Solutions
 ================
 
-Before you choose a way to store your data, it's important to understand each type of backup.
+Before you choose a way to store your data, it's important to understand the advantages and disadvantages of each solution.
+
+T CHART GRAPHIC
+
 
 Network Drive
 =============
-The network drive keeps files in the cloud for easy online access and editing. These files are constantly updated to reflect the most current versions on your computer. If your computer gets a virus, though, the corrupted files will overwrite the ones stored in the network drive. For this reason, we always recommend using the backup vault in conjunction with the network drive.
 
-The network drive also holds Legacy Backups and Sync Folders. You can access files on the network drive with Web Access.
+NETWORK DRIVE GRAPHIC
+
+The network drive keeps files in the cloud for easy online access and editing. These files are frequently updated to reflect the most current versions on your computer. 
+
+The network drive holds Simple Backups and Sync Folders. You can access full files on the network drive with REF Web Access.
 
 Simple Backup
 -------------
-A Simple Backup uploads full files to the Network Drive without compressing them. For example, if you have 15 GB of data within your backup set, 15 GB of storage space will be used (not including previous versions). Individual file size is restricted to 5 GB. Legacy backup is intended for viewing only, as unwanted file changes or deletions may happen with modification.
+A Simple Backup uploads full files to the Network Drive without compressing them. For example, if you have 15 GB of data within your backup set, 15 GB of storage space will be used (not including previous versions). Individual file size is restricted to 5 GB. Simple Backup files are intended for viewing only, as unwanted changes or deletions may happen with modification.
 
 Sync Folders
 ------------

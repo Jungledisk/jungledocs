@@ -81,8 +81,14 @@ Backup Options
 
 Backup Retention
 ^^^^^^^^^^^^^^^^
-Choose how often to clear out old data. This includes previous versions and deleted files. If unchecked, your old backups will be kept indefinitely. Keeping all your old backups may increase charges.
+Choose how often to clear out old data. This includes previous versions and deleted files. If unchecked, your old backups will be kept indefinitely. Keeping all backups may drastically increase charges.
+
+.. Note:: You must adjust the retention period before uploading your files for the first time, or it will not apply. To change the retention period for existing files, copy the data from the backup vault to a secure location, then delete and make a new vault.
 
 Backup Reporting
 ^^^^^^^^^^^^^^^^
 This feature allows your administrator to view summaries of backup jobs, and any errors that may occur during them, via email, RSS, or on the web. "Report backup summaries and detailed logs" is recommended, as it provides more information in case of a backup error.
+
+Previous Versions
+=================
+The backup vault stores previous versions for 60 days by default. You can change this, however, it must be done before the job is run.

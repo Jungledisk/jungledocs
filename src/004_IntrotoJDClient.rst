@@ -1,22 +1,22 @@
-==========================
-How Does Jungle Disk Work?
-==========================
+======================================
+Introduction to the Jungle Disk Client
+======================================
 
-.. RENAME setting up UI or setting up JD, rename the 5 section to setting up acct
+The Jungle Disk client is a two part program.
 
-make this actually about data de-dup and incremental backup and place below the network drive or put that into in 011howdoesbackupprocesswork
+It contains the **agent**, which is the installed service that allows processes to run in the background. This agent communicates with your storage location (Rackspace Cloud Files or Amazon) and is responsible for uploading and retrieving files when needed.
 
+The Jungle Disk client also contains the **Activity Monitor,** which is the User Interface component. It allows you to manage your settings. The only exception to this divide between agent and activity monitor is the USB version of Jungle Disk, which combines all features.
 
-The *Jungle Disk client is a two part program.
-It contains the *Jungle Disk agent, which is the service that gets installed and allows processes to run in the background. This agent communicates with your storage location (Rackspace Cloud File or Amazon) and is responsible for uploading and retrieving files when needed.
-The Jungle Disk client also contains the *Jungle Disk monitor which is the User Interface component. It allows you to manage your settings. The only exception to this would be USB versions of Jungle Disk, which does not use a service, rather containing everything, including the UI, business logic (backups, de-dup), and communication to the storage location(s).
+Agent
+=====
+The Jungle Disk agent can be accessed in the following locations:
 
-Jungle Disk Agent
-=================
-The Jungle Disk service can be accessed in the following locations:
-Windows: [ Windows Key + r] > services.msc
-Mac: Help (software menu option) > Manage Background Programs > enter system credentials
-Linux: /usr/local/bin/
+**Windows** | [ Windows Key + r] > services.msc
+
+**Mac** | Help (software menu option) > Manage Background Programs > enter system credentials
+
+**Linux** | /usr/local/bin/
 
 Resetting the Agent
 -------------------
@@ -106,7 +106,7 @@ You can also manually alter the state for a few processes including:
 
 The Errors & Warnings section in the bottom portion of the Activity Monitor will display any errors,  warnings, or results from running a consistency check.
 
-The Configure option in the upper right is used to manage the settings within Jungle Disk. Any changes  made within this section are applied to the user’s local settings file. See THE SETTINGS FILE for more information.
+The Configure option in the upper right is used to manage the settings within Jungle Disk. Any changes made within the user interface are mirrored on your local settings file. Settings may be altered directly in the local [REF] settings file, but we do not recommend this, as incorrectly editing or accidentally making a change within this file can cause it to become corrupt resulting in the loss of all settings.
 
 Application Settings
 ====================
@@ -148,7 +148,7 @@ The “High” option  prompts the user for their password each time the service
 **Check for updates automatically:** If disabled, the user will need to check for updates manually.
 
 Account Settings
-================
+----------------
 **Click Configure, then Account Settings under Application Settings.**
 
 .. figure:: _static/004/ac.png
@@ -162,7 +162,7 @@ Mac.
 **Remove Configuration:** Removes the current account settings and displays the  first time setup wizard.
 
 Network Settings
-================
+----------------
 
 .. figure:: _static/004/ns.png
 Windows.
@@ -179,8 +179,8 @@ Enables SSL.
 
  **Proxy Server Configuration:** Allows the user to configure a proxy.
 
- Bandwidth Settings
- ==================
+Bandwidth Settings
+------------------
 
  .. figure:: _static/004/bw.png
  Windows.
@@ -191,3 +191,22 @@ Enables SSL.
 **Bandwidth Limiting:** When enabled, limits the upload and download bandwidth available.
 
 **Enable upload resume for large files:** Allows file upload to be paused and resumed at a later time. Only upload changed portions of large files: This is another option that does exactly what it says.
+
+Settings File
+=============
+.. Note:: Use the Activity Monitor to change settings whenever possible. A mistake in editing the settings file may lead to corruption of the file.
+
+This file holds the settings for all the options that can be configured within the software. The settings file is stored as an Extensible Markup Language (XML) file and is held in the following locations:
+
+**Windows XP** | C:\Documents and Settings\All Users/Application Data\JungleDisk\junglediskworkgroup-settings.xml
+|br| **Windows Vista/7/8/10** | C:/ProgramData\JungleDisk\junglediskworkgroup-settings.xml
+|br| **Mac** | /Library/Preferences/junglediskworkgroup-settings.xml
+|br| **Linux** | /etc/jungledisk/junglediskworkgroup-settings.xml
+
+In addition to the settings files listed above, you may also come across multiple files with the format jungledisk-settings.xml-backup-0, or other numbers. This is a backup of the original settings file and can
+be used to restore settings if the original file becomes corrupt or is no longer present. If settings must be edited directly through the XML, make sure a backup like this exists. If not, create one by making a copy of your original settings file.
+
+
+.. |br| raw:: html
+
+   <br />

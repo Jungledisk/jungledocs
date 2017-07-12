@@ -2,8 +2,8 @@
 Storing Previous Versions of Your Data
 ======================================
 
-elim
+.. elim
 
 sort into network drive DONE
-backup vault
+backup vault DONE
 legacy backup/simple backup DONE
