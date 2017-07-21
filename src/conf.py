@@ -83,7 +83,6 @@ todo_include_todos = False
 # a list of builtin themes.
 #
 html_theme = 'agogo'
-html_style = 'style.css'
 html_theme_options = {
 "bodyfont": "Calibri",
 "linkcolor": "#2F443B",
@@ -159,6 +158,3 @@ texinfo_documents = [
      author, 'jungledocs', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-def setup(app):
-    app.add_stylesheet('_static/style.css')

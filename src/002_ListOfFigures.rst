@@ -1,13 +1,8 @@
 ===============
 List Of Figures
 ===============
-Backup Vault 011? CHECK.
+:ref:`Backup Vault <vault>`
 
-Data De-Duplication 011
+:ref:`Data De-Duplication <how>`
 
-Network Drive figure showing all things in network drive 006 CHECK.
-
-T chart comparing all - backup vault simple backup sync folders 006
-perhaps just replace with summaries?
-
-.. [make tree of all things inside the network drive - ex simple backup]
+:ref: `Network Drive <drive2>`
