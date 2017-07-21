@@ -82,7 +82,7 @@ RPM-Based Systems
 2. Once the package has downloaded, open and install it. Follow the prompts on screen.
 
 .. image:: _static/005/rpm.png
-  :width: 700px
+  :width: 400px
 
 |br|
 **Via Terminal**
@@ -219,6 +219,9 @@ This will be the page to use whenever you need to:
 * For the domain name, you can use anything you wish as long as it is not already taken. We suggest using something easy to remember and representative of you, your team, or your company. Take note of this once you create it, as you will need this during the software configuration.
 
 .. image:: _static/005/Domain.png
+  :width: 400px
+
+|br|
 
 **3. User Setup**
 

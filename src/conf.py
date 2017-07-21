@@ -86,9 +86,11 @@ html_theme = 'agogo'
 html_theme_options = {
 "bodyfont": "Roboto",
 "linkcolor": "#2F443B",
-"headerbg": "#58BA57",
-"headerlinkcolor": "black",
-"headercolor1": "black",
+"headerbg": "#2F443B",
+"headerlinkcolor": "white",
+"headertextcolor": "white",
+"headercolor1": "#343433",
+"headercolor2": "#2F443B",
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
