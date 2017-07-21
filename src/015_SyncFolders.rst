@@ -3,6 +3,7 @@
 Sync Folders
 ============
 Sync folders are intended to be used by a single user and offer the ability to work with files when offline. This is  perfect for someone who travels frequently as they can access their files on the go and sync back up to the network drive when their Internet connection is re!established. They can also be used to keep different computers in different locations synced with changes being made (i.e. home/work computer). They work best when the data within the sync folder is less than 10 GB or totals less then 100,000 files.
+
 While you could set up a sync folder for use with multiple users, there is often more risk than is needed. There are more things that can go wrong with sync folders rather than the network drive. Here are a few things that happen when using sync folders in a multi-user environment:
 
 * Creation of conflict files.
@@ -12,6 +13,7 @@ While you could set up a sync folder for use with multiple users, there is often
 For these reasons, the Network Drive is recommended over Sync Folders for multi-user environments.
 
 Sync Folder Summary:
+
 * Works best when storing less than 10 GB or 100,000 files.
 * Sync process runs every 15 seconds.
 * How to sync options must match in every location the same sync folder is configured. • Meant for single user working offline.

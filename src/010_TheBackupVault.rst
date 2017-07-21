@@ -1,13 +1,18 @@
+.. _vault:
+
 ================
 The Backup Vault
 ================
-The Backup Vault compresses and stores your files for recovery in the event of data loss. These files cannot be accessed in full on demand; only through the "Restore Files" section. Data compression allows large amounts of information to be stored for a low cost.
+
+.. image:: _static/graph/backupvault.png
+
+The Backup Vault compresses and stores your files for recovery in the event of data loss. These files cannot be accessed in full on demand; only through the "Restore Files" section. Data compression allows large amounts of information to be stored for a low cost. For maximum efficiency, data that is easily replaced (such as applications) should be excluded.
 
 The first backup that is run for the account is the only full backup done for the Backup Vault. Any subsequent backups will only upload changed portions of files or newly added files within the backup set.
 
-To learn more about how the Backup Vault works, see ____
+To learn about the technical processes behind the Backup Vault works, see :ref:`How Does The Backup Process Work <how>`
 
-DEFINE BACKUP JOB
+
 
 Backup Vault
 ============
@@ -77,6 +82,7 @@ Backup Options
 --------------
 .. image:: _static/010/b6.png
 
+
 **Ignore timezone shifts when detecting changed files:** If you have users located in another time zone, checking the option “Ignore timezone shifts when detecting changed files” will ensure that you are not creating and storing unnecessary previous versions.
 
 Backup Retention
@@ -91,4 +97,4 @@ This feature allows your administrator to view summaries of backup jobs, and any
 
 Previous Versions
 =================
-The backup vault stores previous versions for 60 days by default. You can change this, however, it must be done before the job is run.
+The backup vault stores previous versions for 60 days by default. You can change this, however, it must be done before the job is run for the first time. To edit the retention policy for a previously run job, the job must be deleted and re-uploaded.

@@ -2,7 +2,8 @@
 =============
 Simple Backup
 =============
-..Note:: Simple Backup is formerly known as Legacy Backup.
+
+.. Note:: Simple Backup is formerly known as Legacy Backup.
 
 Simple backup stores full files on the Network Drive and does not compress any data to save space. It can be accessed through the network drive or web access.
 

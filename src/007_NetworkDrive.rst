@@ -2,6 +2,8 @@
 The Network Drive
 =================
 
+.. image:: _static/graph/nd.png
+
 The network drive offers a convenient way to store and access information. It can be used to temporarily store files, store files on a permanent basis, or share files with other users.
 
 For convenience, it can also be mapped to one of your computer's drives, allowing for easy synchronization. Any file you place on the mapped drive will automatically upload without additional steps.

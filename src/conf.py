@@ -46,8 +46,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'jungledocs'
-copyright = u'2017, Sarah Scott'
-author = u'Sarah Scott'
+copyright = u'2017, Jungle Disk'
+author = u'Sarah Scott and Paul Ibarra'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -83,6 +83,7 @@ todo_include_todos = False
 # a list of builtin themes.
 #
 html_theme = 'agogo'
+html_style = 'style.css'
 html_theme_options = {
 "bodyfont": "Calibri",
 "linkcolor": "#2F443B",
@@ -158,3 +159,6 @@ texinfo_documents = [
      author, 'jungledocs', 'One line description of project.',
      'Miscellaneous'),
 ]
+
+def setup(app):
+    app.add_stylesheet('_static/style.css')

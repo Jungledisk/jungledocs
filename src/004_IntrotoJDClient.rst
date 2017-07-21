@@ -106,7 +106,7 @@ You can also manually alter the state for a few processes including:
 
 The Errors & Warnings section in the bottom portion of the Activity Monitor will display any errors,  warnings, or results from running a consistency check.
 
-The Configure option in the upper right is used to manage the settings within Jungle Disk. Any changes made within the user interface are mirrored on your local settings file. Settings may be altered directly in the local [REF] settings file, but we do not recommend this, as incorrectly editing or accidentally making a change within this file can cause it to become corrupt resulting in the loss of all settings.
+The Configure option in the upper right is used to manage the settings within Jungle Disk. Any changes made within the user interface are mirrored on your local settings file. Settings may be altered directly in the local :ref:`settings file <Settings File>`, but we do not recommend this, as incorrectly editing or accidentally making a change within this file can cause it to become corrupt resulting in the loss of all settings.
 
 Application Settings
 ====================
@@ -139,11 +139,11 @@ The “High” option  prompts the user for their password each time the service
 * Logs
 * The backup database.
 
- If the location of the cache directory is changed, the service must be restarted in order for the new location to  be registered.
+If the location of the cache directory is changed, the service must be restarted in order for the new location to  be registered.
 
- **Enable sync icon overlays:** If enabled, this places a green checkmark over the file icon of a file that is  being synced via sync folders. If there is a problem syncing a file, a red “x” will be overlaid on the file’s icon.  If you can no longer see the icons, try disabling then re-enabling this option.
+**Enable sync icon overlays:** If enabled, this places a green checkmark over the file icon of a file that is  being synced via sync folders. If there is a problem syncing a file, a red “x” will be overlaid on the file’s icon.  If you can no longer see the icons, try disabling then re-enabling this option.
 
- **Remove Configuration:** This option logs you out of the current session and removes all information from within the configuration file, causing the first time setup wizard to start.
+**Remove Configuration:** This option logs you out of the current session and removes all information from within the configuration file, causing the first time setup wizard to start.
 
 **Check for updates automatically:** If disabled, the user will need to check for updates manually.
 
@@ -191,6 +191,8 @@ Bandwidth Settings
 **Bandwidth Limiting:** When enabled, limits the upload and download bandwidth available.
 
 **Enable upload resume for large files:** Allows file upload to be paused and resumed at a later time. Only upload changed portions of large files: This is another option that does exactly what it says.
+
+.. _Settings File:
 
 Settings File
 =============

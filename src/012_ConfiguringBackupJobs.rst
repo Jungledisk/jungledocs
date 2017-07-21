@@ -5,8 +5,6 @@ First, to create the backup job, select the Backup Vault or Legacy Backup from w
 
 3 basic options apply to Legacy Backups and Backup Vaults: Schedule, What to Backup, and Backup Options.
 
-[insert screenshot and point out these 3 options]
-
 Schedule
 --------
 The schedule can be set as frequently as every 5 times per week and as little as once per week. You will also have the option to set the backup to only run manually, meaning you will need to manually run the backup through the software or no backups will occur. Backups cannot run while the computer is off or in a hibernation state. The backup can run when the computer is in sleep mode; however, the “Wake my computer from sleep for scheduled backups” option must be selected in order to run.
@@ -46,12 +44,14 @@ Backup Reporting is a way to keep track of your backup jobs by receiving an emai
 Basic backup reporting is enabled by default, and will let you know if it completed successfully, failed, or completed with errors. You can also turn on detailed logs, which tell you more about errors, if they occur, through the control panel in Web Access.
 
 You can set your preferred Frequency for email delivery:
+
 * Immediately - send me an email as soon as any backup completes
 * Daily - send me a digest covering all backups that were performed each day
 * Weekly - send me a weekly digest
 * Never - don't send me any emails
 
 You also have a set of options that allow you to limit the Scope of your RSS Feed updates:
+
 * All Computers
 * One Computer
 * One Sub-Account
@@ -64,7 +64,7 @@ Configuring Backup Reports
 
 .. image:: _static/012/c5.png
 
-2. Go to the `control panel. <http://secure.jungledisk.com/login.aspx>`_  [http://secure.jungledisk.com/login.aspx] Click Reports, then Backup Report Preferences.
+2. Go to the `control panel. <http://secure.jungledisk.com/login.aspx>`_  Click Reports, then Backup Report Preferences.
 
 .. image:: _static/012/d6.png
 
@@ -79,6 +79,3 @@ Configuring Backup Reports
  After clicking on "Create Feed" you will see the feed listing that was created for you. You can right-click the RSS link or Atom link to copy the URL for either of these feed types and use them in your feed aggregator.
 
   .. image:: _static/012/d9.png
-
-Include configuring backup reports
-https://support.jungledisk.com/hc/en-us/articles/218746157-Configuring-Backup-Reporting-Notifications-Email-RSS-Feeds-
