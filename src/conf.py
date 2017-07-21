@@ -85,6 +85,7 @@ todo_include_todos = False
 html_theme = 'agogo'
 html_theme_options = {
 "bodyfont": "Roboto",
+"headerfont": "Roboto",
 "linkcolor": "#2F443B",
 "headerbg": "#58BA57",
 "headerlinkcolor": "black",
