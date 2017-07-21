@@ -54,7 +54,7 @@ Windows
 
 Mac
 ---
-.. youtube:: https://www.youtube.com/watch?v=AY_JpzEVPF0
+.. youtube:: AY_JpzEVPF0
 
 #. Select the `macOS download <https://www.jungledisk.com/downloads/>`_.
 #. Open the .dmg from the Downloads folder.
