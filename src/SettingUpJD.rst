@@ -58,12 +58,8 @@ Windows
 
 Mac
 ---
-<<<<<<< HEAD:src/SettingUpJD.rst
 
 `Video Tutorial <https://www.youtube.com/watch?v=AY_JpzEVPF0>`_
-=======
-.. .. youtube:: AY_JpzEVPF0
->>>>>>> b11a78793b16d67a9f6ce2d509e96613bd00b0a5:src/005_SettingUpJD.rst
 
 #. Select the `macOS download <https://www.jungledisk.com/downloads/>`_.
 #. Open the .dmg from the Downloads folder.
