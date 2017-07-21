@@ -89,7 +89,6 @@ html_theme_options = {
 "linkcolor": "#2F443B",
 "headerbg": "#2F443B",
 "headerlinkcolor": "white",
-"headertextcolor": "white",
 "headercolor1": "#343433",
 "headercolor2": "#2F443B",
 }
