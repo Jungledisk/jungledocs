@@ -1,6 +1,0 @@
-001_TOC
-
-Table of Contents
-=================
-
-.. add at the end, to compile for PDF

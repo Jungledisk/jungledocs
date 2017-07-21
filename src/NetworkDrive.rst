@@ -3,7 +3,10 @@
 The Network Drive
 =================
 
-.. image:: _static/graph/nd.png
+.. image:: _static/graph/nd22.png
+  :width: 800px
+
+|br|
 
 The network drive offers a convenient way to store and access information. It can be used to temporarily store files, store files on a permanent basis, or share files with other users.
 
@@ -16,10 +19,16 @@ There are a few ways to upload data onto the network drive: via a Simple Backup,
 Network Drive
 =============
 .. figure:: _static/004/nd.png
+  :width: 800px
 Windows.
 
+|br|
+
 .. figure:: _static/004/nd2.png
+  :width: 800px
 Mac.
+
+|br|
 
 **Local Cache Validation:** Specifies if Jungle Disk will check the online disk for changes and how often.
 
@@ -28,10 +37,16 @@ Mac.
 Local Drive Mapping
 ===================
 .. figure:: _static/007/nd3.png
+  :width: 800px
 Windows.
 
+|br|
+
 .. figure:: _static/007/nd4.png
+  :width: 800px
 Mac.
+
+|br|
 
 **Network Drive Letter:** Assigns a drive letter to the network drive in Windows. Assigns a name on Mac, and a mount point on Linux.
 
@@ -46,10 +61,16 @@ Mac.
 Previous Versions
 =================
 .. figure:: _static/007/pv.png
+  :width: 800px
 Windows.
 
+|br|
+
 .. figure:: _static/007/pv2.png
+  :width: 800px
 Mac.
+
+|br|
 
 When you change the options below, they apply any time a file is uploaded or changed. So, you should run a Network Drive backup after making changes to ensure they are applied.
 
@@ -81,3 +102,7 @@ You can read about :ref:`Sync Folders <Sync Folders>` and :ref:`Simple Backups <
 Accessing Previous Versions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The recommended method to access a previous version is through Restore Files > Network Drive > select “A deleted file or previous version” or “Backup as of” in the Restore From section. Users can also access the  previous versions directly from the network drive by navigating to the “~VersionArchive” folder. This folder shows by  default within web access, however, you must manually enter this path when navigating to this folder from within  the file system.
+
+.. |br| raw:: html
+
+   <br />

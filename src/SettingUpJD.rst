@@ -17,6 +17,8 @@ Version 3.21
 |br| Gnome, KDE, Cinnamon, or XFCE desktop. You may also need to install Fuse.
 |br| While it is possible that other configurations may work, only those listed above are fully supported.
 
+|br|
+
 ======================  ==================
 Most Distributions      CentOS 6
 ======================  ==================
@@ -30,6 +32,8 @@ psmisc (>=22.15-1)      psmisc >= 22.6
 libgtk2.0-0 (>=2.24.10  gtk2 >= 2.24.10
 libnotify4 (>=0.7.5     libnotify >= 0.5.0
 ======================  ==================
+
+|br|
 
 .. See `this article <https://support.jungledisk.com/hc/en-us/articles/200812234-Linux-System-Requirements/>`_ for more information on Linux setup.
 
@@ -54,7 +58,8 @@ Windows
 
 Mac
 ---
-.. youtube:: https://www.youtube.com/watch?v=AY_JpzEVPF0
+
+`Video Tutorial <https://www.youtube.com/watch?v=AY_JpzEVPF0>`_
 
 #. Select the `macOS download <https://www.jungledisk.com/downloads/>`_.
 #. Open the .dmg from the Downloads folder.
@@ -62,7 +67,7 @@ Mac
 #. Open the Applications Folder, then Jungle Disk Workgroup. Your first set-up may take a few minutes.
 #. If you are presented with a message that says the software will not open because it is from an unidentified developer, go to your Applications in finder, right-click the Jungle Disk app and select open.
 
-.. Note:: If you have parental controls enabled on your Mac user account, you will need to add `https://s3.amazonaws.com` to the allowed sites list for your account or you may receive a "connection refused" error.
+.. Note:: If you have parental controls enabled on your Mac user account, you will need to add `https://s3.amazonaws.com` to the allowed sites list for your account, or you may receive a "connection refused" error.
 
 
 Linux
@@ -82,7 +87,7 @@ RPM-Based Systems
 2. Once the package has downloaded, open and install it. Follow the prompts on screen.
 
 .. image:: _static/005/rpm.png
-  :width: 400px
+  :width: 800px
 
 |br|
 **Via Terminal**
@@ -219,7 +224,7 @@ This will be the page to use whenever you need to:
 * For the domain name, you can use anything you wish as long as it is not already taken. We suggest using something easy to remember and representative of you, your team, or your company. Take note of this once you create it, as you will need this during the software configuration.
 
 .. image:: _static/005/Domain.png
-  :width: 400px
+  :width: 800px
 
 |br|
 
@@ -232,6 +237,9 @@ Now that the domain is set, you need to create a user. If you'll be using Jungle
 From the main page, click "Manage Users & Permissions". Under the "Create a New User" heading, assign a username, password, and tags (optional, but may be helpful if you're setting up for a team). Tags are used if you want to sort your team members into separate reports; such as finance, marketing, etc. Users will not see their tag or know that their account is tagged.
 
 .. image:: _static/005/users.png
+  :width: 800px
+
+|br|
 
 .. Note:: Jungle Disk doesn't store Online Disk passwords, so we cannot recover them if they are forgotten. Keep a copy of your password in a secure place!
 
@@ -244,6 +252,9 @@ There are also other options, such as the storage provider, location, and additi
 Click the "Create New User" button to complete this step. Within 5 minutes, you'll be able to log into our software and Web Access with this username. To quickly get to your Web Access site, navigate to the top of the Control Panel, click on the Online Disk drop down, and then Web Access.
 
 .. image:: _static/005/newusers.png
+  :width: 800px
+
+|br|
 
 **4. Online Disk Setup**
 |br| After you have set up your user(s), you may want to create additional online disks for you or your other users to access.
@@ -253,6 +264,9 @@ This is particularly useful in a team-based environment if you have two groups w
 To create a new Online Disk, Click the "Online Disk" drop down on the top of the Control Panel. Next, select "Manage/Add Online Disks". You may want to use a name that represent the content of that disk; such as, "Finance" or "Documents." The name of a disk cannot be changed after it's created.
 
 .. image:: _static/005/41.png
+  :width: 800px
+
+|br|
 
 You may select one user to get data usage reports in the "Storage Provider" section. Usage reports update you on the status of your backups in two ways: one reports the amount of data stored in an Online Disk, and the other reports how much data each user is storing on the disk. To read more about usage reports, jump to :ref:`backup`.
 
@@ -267,6 +281,7 @@ You may select one user to get data usage reports in the "Storage Provider" sect
 |br| 3. Under the "Online Disk Access" heading select an Online Disk, select the desired level of access, click the "Add" button.
 
 .. image:: _static/005/caleb.png
+  :width: 800px
 
 
 |br|

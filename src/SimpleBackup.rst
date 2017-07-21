@@ -26,9 +26,19 @@ Limitations
 * Old versions of files are stored in full, so take up large amounts of space
 * If moving to a new computer, you must change the file structure to match the old computer (within the “backups” folder on the network drive), or unnecessary re-uploading will occur
 
+**Simple Backup Summary:**
+
+* Files not compressed.
+* Can be accessed in web!access and the network drive.
+* 5 GB file size limitation.
+* Stores to a folder titled “backups” on the network drive by default.
+
 Simple Backup
 =============
 .. image:: _static/009/w1.png
+  :width: 640px
+
+|br|
 
 **Create a new Backup Job:** Name the backup job and click "Create". You can then click the drop-down arrow next to Simple Backup in the sidebar to configure options for your new backup job.
 
@@ -37,6 +47,9 @@ Simple Backup
 Backup Job
 ==========
 .. image:: _static/009/w2.png
+  :width: 640px
+
+|br|
 
 **Allow this backup job to run:** Temporarily enable/disable a backup job.
 
@@ -48,6 +61,9 @@ Schedule
 --------
 
 .. image:: _static/009/w3.png
+  :width: 640px
+
+|br|
 
 **Automatically backup my files every:** Choose how often and what time to run the backup.
 
@@ -56,6 +72,9 @@ Schedule
 What to Backup
 --------------
 .. image:: _static/009/w4.png
+  :width: 640px
+
+  br|
 
 **Add or Change Backup Folders:** Add or change backup folders or files.
 
@@ -63,6 +82,9 @@ What to Backup
 
 
 .. image:: _static/009/w5.png
+  :width: 640px
+
+|br|
 
 Folders
 ^^^^^^^
@@ -90,6 +112,9 @@ Backup Options
 --------------
 
 .. image:: _static/009/w900.png
+  :width: 640px
+
+|br|
 
 **Remove locally deleted files from my remote backup**: If checked, the backup will delete files when you delete them on your computer.
 
@@ -110,3 +135,7 @@ Previous Versions
 Backup Reporting
 ^^^^^^^^^^^^^^^^
 This feature allows your administrator to view summaries of backup jobs, and any errors that may occur during them, via email, RSS, or on the web. "Report backup summaries and detailed logs" is recommended, as it provides more information in case of a backup error.
+
+.. |br| raw:: html
+
+   <br />

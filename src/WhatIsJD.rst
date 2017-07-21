@@ -21,6 +21,6 @@ This is an incremental backup that stores files which are accessible in full onl
 
 Backup Vault
 -------------
-This is an incremental backup with *data de-duplication. There is no file size limitation when backing up to the Backup Vault. However, files are compressed to save space and reduce user costs, so they are only available through the software's Restore Files operation. The Backup Vault best protects against data loss because it can store a large amount of information quickly and for a low cost.
+This is an incremental backup with data de-duplication. There is no file size limitation when backing up to the Backup Vault. However, files are compressed to save space and reduce user costs, so they are only available through the software's Restore Files operation. The Backup Vault best protects against data loss because it can store a large amount of information quickly and for a low cost.
 
 For more details and options, see our :ref:`Backup Solutions <Backup Solutions>`.

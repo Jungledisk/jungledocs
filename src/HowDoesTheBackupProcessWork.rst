@@ -11,10 +11,11 @@ For help choosing which to use, see :ref:`Backup Solutions <Backup Solutions>`.
 
 Data De-Duplication
 ===================
-Jungle Disk uses data de-duplication for the Backup Vault to ensure that the user isn’t storing unnecessary multiple copies of a single file. Each file is broken into small blocks. Then, each block is hashed and compared against the block tables within the backup database. If a block’s hash is not detected, an entry is created
+Jungle Disk uses data de-duplication for the Backup Vault to ensure that the user isn’t storing unnecessary multiple copies of a single file. Each file is broken into small blocks. Then, each block is hashed and compared against the block tables within the backup database, which is an "instruction sheet" of how files are broken down. If a block’s hash is not detected, an entry is created
 within the block table. The following figure outlines this process.
 
 .. image:: _static/graph/dedup.png
+  :width: 640px
 
 After the blocks have been compared against the backup database, they are then compressed, placed into 1.5 MB chunks, and uploaded. Unique IDs are then given to each chunk, and stored within the backup database.
 

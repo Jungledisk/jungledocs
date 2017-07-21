@@ -5,6 +5,9 @@ The Backup Vault
 ================
 
 .. image:: _static/graph/backupvault.png
+  :width: 640px
+
+|br|
 
 The Backup Vault compresses and stores your files for recovery in the event of data loss. These files cannot be accessed in full on demand; only through the "Restore Files" section. Data compression allows large amounts of information to be stored for a low cost. For maximum efficiency, data that is easily replaced (such as applications) should be excluded.
 
@@ -12,11 +15,19 @@ The first backup that is run for the account is the only full backup done for th
 
 To learn about the technical processes behind the Backup Vault works, see :ref:`How Does The Backup Process Work <how>`
 
+**Backup Vault Summary:**
 
+* Files compressed.
+* Utilizes data de-duplication.
+* No web access.
+* Cannot be accessed via the network drive.
 
 Backup Vault
 ============
 .. image:: _static/010/b1.png
+  :width: 800px
+
+|br|
 
 **Create a new Backup Job:** Name and create new backup jobs here. By default, a job titled "My Backup" will already exist.
 
@@ -31,6 +42,9 @@ You can configure the settings for each Backup Job by clicking on its dropdown a
 Here, the example Backup Job is named "My Backup".
 
 .. image:: _static/010/b2.png
+  :width: 800px
+
+|br|
 
 **Allow this backup job to run:** Temporarily enable/disable a backup job.
 
@@ -41,6 +55,9 @@ Here, the example Backup Job is named "My Backup".
 Schedule
 --------
 .. image:: _static/010/b3.png
+  :width: 800px
+
+|br|
 
 **Automatically backup my files every:** Choose how often and what time to run the backup.
 
@@ -49,12 +66,16 @@ Schedule
 What to Backup
 --------------
 .. image:: _static/010/b4.png
+  :width: 800px
+
+|br|
 
 **Add or Change Backup Folders:** Add or change backup folders or files.
 
 **Remove Selected Folder** Removes folder selected above.
 
 .. image:: _static/010/b5.png
+  :width: 800px
 
 Folders
 ^^^^^^^
@@ -81,7 +102,9 @@ Select or deselect files in the selected folder to backup.
 Backup Options
 --------------
 .. image:: _static/010/b6.png
+  :width: 800px:
 
+|br|
 
 **Ignore timezone shifts when detecting changed files:** If you have users located in another time zone, checking the option “Ignore timezone shifts when detecting changed files” will ensure that you are not creating and storing unnecessary previous versions.
 
@@ -98,3 +121,7 @@ This feature allows your administrator to view summaries of backup jobs, and any
 Previous Versions
 =================
 The backup vault stores previous versions for 60 days by default. You can change this, however, it must be done before the job is run for the first time. To edit the retention policy for a previously run job, the job must be deleted and re-uploaded.
+
+.. |br| raw:: html
+
+   <br />

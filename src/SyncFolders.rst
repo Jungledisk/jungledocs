@@ -12,7 +12,9 @@ While you could set up a sync folder for use with multiple users, there is often
 
 For these reasons, the Network Drive is recommended over Sync Folders for multi-user environments.
 
-Sync Folder Summary:
+|br|
+
+**Sync Folder Summary:**
 
 * Works best when storing less than 10 GB or 100,000 files.
 * Sync process runs every 15 seconds.
@@ -22,9 +24,13 @@ Sync Folder Summary:
 Sync Folder Creation
 ====================
 .. figure:: _static/015/sf3.png
+  :width: 650px
 Mac.
 
+|br|
+
 .. figure:: _static/015/sf4.png
+  :width: 500px
 Mac.
 
 **Local Sync Folder:** The folder where your sync folders are stored locally. You can either enter a path in manually, or use the Browse option to select the local folder.
@@ -50,3 +56,7 @@ Limitations
 The sync folder works best when it holds less than 10 GB or less than 100,000 files.
 
 This is largely due to a running sync database which ensures all files within the folder are being synced. Each file that is being synced has a record created within a sync database that is kept within the sync folder. The more records that are added, the more records that need to be searched during each sync. The sync process also runs every 15 seconds, which could significantly slow down a computer if a large amount of data is being processed.
+
+.. |br| raw:: html
+
+   <br />

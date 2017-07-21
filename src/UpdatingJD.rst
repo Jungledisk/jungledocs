@@ -4,41 +4,45 @@ Updating Jungle Disk
 
 Updating will not affect your current backup settings or your data.
 
-mac/linux 3.20
-https://support.jungledisk.com/hc/en-us/articles/115000012814-Updating-to-Jungle-Disk-3-20-for-Mac-and-Linux
-
-3.16 windows and screenshots for windows/mac
-https://support.jungledisk.com/hc/en-us/articles/204150844-Updating-Your-Jungle-Disk-Software-Version
-
 Windows
 =======
 1. Click the Start Menu, then the Control Panel.
 
 .. image:: _static/017.5/win1.png
+  :width: 800px
 
 2. Click "Uninstall a Program" OR "Programs and Features".
 
 .. image:: _static/017.5/win2.png
+  :width: 800px
 
+|br|
 **OR**
+|br
 
 .. image:: _static/017.5/win3.png
+  :width: 800px
 
 3. Find "Jungle Disk..." in the list of programs presented. Right-click the name of the program and click "uninstall."
 
 .. image:: _static/017.5/win4.png
+  :width: 800px
 
 .. image:: _static/017.5/win5.png
+  :width: 800px
 
 4. The uninstallation will run, and you will be prompted to reboot the computer. **Do not reboot your computer, click "No."**
 
 .. image:: _static/017.5/win6.png
+  :width: 800px
 
 5. Download Windows Workgroup from the `downloads page. <https://www.jungledisk.com/downloads>`_
+
 
 6. Navigate to the location where you saved the installer program. Open the installer program that was downloaded and click "Run."
 
 .. image:: _static/017.5/win7.png
+  :width: 800px
 
 7. Click "next," and complete the installation process. You will be promoted to reboot the computer, Click "no" to ignore the reboot request; this should not be necessary.
 
@@ -70,6 +74,7 @@ RPM-Based Systems
 3. Click "remove," approve the removal, and enter your system password (if needed).
 
 .. image:: _static/017.5/rpm1.png
+  :width: 800px
 
 4. Select the `Linux RPM Workgroup download. <https://www.jungledisk.com/downloads/>`_
 

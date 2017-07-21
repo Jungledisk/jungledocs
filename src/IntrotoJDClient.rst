@@ -29,16 +29,22 @@ Windows
 1. Press [ Windows Key + r ] and type services.msc
 
 .. image:: _static/004/j1.png
+  :width: 500px
 
 2. Right-click the JungleDiskWorkgroupService service and select Restart (or Start if it's not currently running).
 
 .. image:: _static/004/j2.png
+  :width: 800px
 
 3. You can set the service to automatically restart upon failure by right-clicking the service, clicking Properties, clicking the Recovery tab, and setting all three "failure instances" to Restart the Service.
 
 .. image:: _static/004/j6.png
+  :width: 800px
+
+|br|
 
 .. image:: _static/004/j7.png
+
 
 
 Mac
@@ -47,14 +53,17 @@ Mac
 1. Access the service through the Activity Monitor by selecting Help > Manage Background Programs.
 
 .. image:: _static/004/j3.png
+  :width: 800px
 
 2. Enter your system username and password (Not your Jungle Disk username and password).
 
 .. image:: _static/004/j4.png
+  :width: 500px
 
 3. Select Stop, wait 1 minute, then select Start. (Select Start if the service is currently not running)
 
 .. image:: _static/004/j5.png
+  :width: 500px
 
 Linux
 ^^^^^^^^^
@@ -78,12 +87,14 @@ Activity Monitor
 ================
 
 .. figure:: _static/004/o2.png
+  :width: 800px
 The Activity Monitor in Windows.
 
 .. figure:: _static/004/o1.png
+  :width: 500px
 The Activity Monitor in Mac OS.
 
-The Jungle Disk Activity Monitor allows users to control settings for:
+|br| The Jungle Disk Activity Monitor allows users to control settings for:
 
 * Backups
 * Retention
@@ -113,9 +124,11 @@ Application Settings
 **Click "Configure", then "Application Settings".**
 
 .. figure:: _static/004/o3.png
+  :width: 800px
 Windows.
 
 .. figure:: _static/004/o4.png
+  :width: 800px
 Mac.
 
 **Computer Name:** This is the name of the computer the software is installed on. The computer name is pulled from the name listed within the operating system. This can be adjusted by entering a new name in  this field. The computer name will also be added to the backup vault name when it is created.  Example: The computer name in the Windows figure above is L2135BS1, so the backup vault is presented as L2135BS1 Backup Vault.
@@ -152,9 +165,11 @@ Account Settings
 **Click Configure, then Account Settings under Application Settings.**
 
 .. figure:: _static/004/ac.png
+  :width: 800px
 Windows.
 
 .. figure:: _static/004/ac2.png
+  :width: 800px
 Mac.
 
 **Account Settings:** This options shows your account details, including the domain and username you are currently logged in with. It also shows the type of Jungle Disk you are running and your subscription status.
@@ -165,9 +180,11 @@ Network Settings
 ----------------
 
 .. figure:: _static/004/ns.png
+  :width: 800px
 Windows.
 
 .. figure:: _static/004/ns2.png
+  :width: 800px
 Mac.
 
 **Connect using SSL (encrypts all network traffic):** (WINDOWS AND LINUX ONLY)
@@ -183,9 +200,11 @@ Bandwidth Settings
 ------------------
 
  .. figure:: _static/004/bw.png
+   :width: 800px
  Windows.
 
  .. figure:: _static/004/bw2.png
+   :width: 800px
  Mac.
 
 **Bandwidth Limiting:** When enabled, limits the upload and download bandwidth available.
