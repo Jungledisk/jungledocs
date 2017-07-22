@@ -82,16 +82,41 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
+
+# Experimenting with the clasic theme due to its responsiveness ... standby
+html_theme = 'classic'
+html_theme_options = {
+  'collapsiblesidebar': True,
+  'footerbgcolor': '#2f443b',
+  'sidebarbgcolor': '#58ba57',
+  'sidebarbtncolor': '#2f443b',
+  'sidebartextcolor': '#2f443b',
+  'sidebarlinkcolor': '#2f443b',
+  'relbarbgcolor': '#2f443b',
+  'headtextcolor': '#2f443b',
+  'headlinkcolor': '#2f443b',
+  'linkcolor': '#58ba57',
+  'visitedlinkcolor': '#58ba57',
+  'headbgcolor': '#f4f4f4',
+  'codebgcolor': '#FFFFE9',
+  'bodyfont': 'roboto',
+  'headfont': 'roboto',
+}
+
+'''
+# Customizations for the agogo theme ...
+
 html_theme = 'agogo'
 html_theme_options = {
-"bodyfont": "Roboto",
-"headerfont": "Roboto",
-"linkcolor": "#2F443B",
-"headerbg": "#2F443B",
-"headerlinkcolor": "white",
-"headercolor1": "#343433",
-"headercolor2": "#2F443B",
+ "bodyfont": "Roboto",
+ "headerfont": "Roboto",
+ "linkcolor": "#2F443B",
+ "headerbg": "#2F443B",
+ "headerlinkcolor": "white",
+ "headercolor1": "#343433",
+ "headercolor2": "#2F443B",
 }
+'''
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the

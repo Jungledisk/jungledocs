@@ -75,9 +75,11 @@ Linux
   sudo service [JungleDiskWorkgroupService] restart
 
 2. Or, run
+
 ::
 
   ps aux | grep jungle
+
 Then
 ::
 
@@ -88,10 +90,12 @@ Activity Monitor
 
 .. figure:: _static/004/o2.png
   :width: 800px
+
 The Activity Monitor in Windows.
 
 .. figure:: _static/004/o1.png
   :width: 500px
+
 The Activity Monitor in Mac OS.
 
 |br| The Jungle Disk Activity Monitor allows users to control settings for:
@@ -125,10 +129,12 @@ Application Settings
 
 .. figure:: _static/004/o3.png
   :width: 800px
+
 Windows.
 
 .. figure:: _static/004/o4.png
   :width: 800px
+
 Mac.
 
 **Computer Name:** This is the name of the computer the software is installed on. The computer name is pulled from the name listed within the operating system. This can be adjusted by entering a new name in  this field. The computer name will also be added to the backup vault name when it is created.  Example: The computer name in the Windows figure above is L2135BS1, so the backup vault is presented as L2135BS1 Backup Vault.
@@ -166,10 +172,12 @@ Account Settings
 
 .. figure:: _static/004/ac.png
   :width: 800px
+
 Windows.
 
 .. figure:: _static/004/ac2.png
   :width: 800px
+
 Mac.
 
 **Account Settings:** This options shows your account details, including the domain and username you are currently logged in with. It also shows the type of Jungle Disk you are running and your subscription status.
@@ -181,10 +189,12 @@ Network Settings
 
 .. figure:: _static/004/ns.png
   :width: 800px
+
 Windows.
 
 .. figure:: _static/004/ns2.png
   :width: 800px
+
 Mac.
 
 **Connect using SSL (encrypts all network traffic):** (WINDOWS AND LINUX ONLY)
@@ -199,13 +209,15 @@ Enables SSL.
 Bandwidth Settings
 ------------------
 
- .. figure:: _static/004/bw.png
-   :width: 800px
- Windows.
+.. figure:: _static/004/bw.png
+  :width: 800px
 
- .. figure:: _static/004/bw2.png
-   :width: 800px
- Mac.
+Windows.
+
+.. figure:: _static/004/bw2.png
+  :width: 800px
+
+Mac.
 
 **Bandwidth Limiting:** When enabled, limits the upload and download bandwidth available.
 

@@ -2,7 +2,7 @@
 What Is Jungle Disk?
 ====================
 
-Jungle Disk is a multifaceted cloud backup software paired with network drive capabilities to help individuals or teams stay connected to their work, wherever they are.
+:index:`Jungle Disk` is a multifaceted cloud backup software paired with network drive capabilities to help individuals or teams stay connected to their work, wherever they are.
 
 Jungle Disk will allow you to:
 

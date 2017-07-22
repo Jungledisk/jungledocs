@@ -20,5 +20,6 @@ Jungle Disk User Guide
    SyncFolders
    WebAccess
    UpdatingJD
-   ProductSummary
    Glossary
+   
+.. ProductSummary? Do we add this or is this too similar to WhatIsJD?
