@@ -13,14 +13,17 @@ Jungle Disk will allow you to:
 
 Backup Solutions
 ================
+
 Jungle Disk has two central backup solutions, Simple Backup and the Backup Vault. These two solutions should be used together for maximum security and accessibility.
 
-Simple Backup
+:index:`Simple Backup`
 -------------
+
 This is an incremental backup that stores files which are accessible in full online. There is a hard size limitation of 5 GB per file. The Simple Backup is a convenient way to share files amongst teams.
 
-Backup Vault
+:index:`Backup Vault`
 -------------
+
 This is an incremental backup with data de-duplication. There is no file size limitation when backing up to the Backup Vault. However, files are compressed to save space and reduce user costs, so they are only available through the software's Restore Files operation. The Backup Vault best protects against data loss because it can store a large amount of information quickly and for a low cost.
 
 For more details and options, see our :ref:`Backup Solutions <Backup Solutions>`.

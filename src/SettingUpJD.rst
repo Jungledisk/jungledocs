@@ -6,45 +6,48 @@ This section contains important information for first time setup.
 
 System Requirements
 ===================
+
 Version 3.21
 
-**Windows** | Windows 7 or newer. 64 bit only.
+**Windows**: Windows 7 or newer. 64 bit only.
 
-**Mac** | 10.9 (Mavericks) or newer.
+**Mac**: 10.9 (Mavericks) or newer.
 
-**Linux** | Ubuntu (12.04, 14.04, 16.04), Fedora (23, 24, 25), CentOS (6, 7), RHEL (6, 7).
-|br| x86, 64 bit system.
-|br| Gnome, KDE, Cinnamon, or XFCE desktop. You may also need to install Fuse.
-|br| While it is possible that other configurations may work, only those listed above are fully supported.
+**Linux**:
+
+* Ubuntu (12.04, 14.04, 16.04), Fedora (23, 24, 25), CentOS (6, 7), RHEL (6, 7)
+* An x86, 64 bit system
+* Gnome, KDE, Cinnamon, or XFCE desktop. You may also need to install Fuse.
+* Library requirements as follows ...
+
+.. table:: Library requirements for Linux
+  :align: left
+  :widths: auto
+
+  ======================  ==================
+  Most Distributions      CentOS 6
+  ======================  ==================
+  libfuse2 (>= 2.8.6)     fuse-libs >= 2.8.3
+  libacl1 (>= 2.2.51-1)   libacl >= 2.2.49
+  libc6 (>= 2.15)         glibc >= 2.12
+  libgcc1 (>= 1:4.6.3)    libgcc >= 4.4.7
+  libstdc++6 (>= 4.6.3)   libstdc++ >= 4.4.7
+  zlib1g (>= 1:1.2.0)     zlib >= 1.2.3
+  psmisc (>=22.15-1)      psmisc >= 22.6
+  libgtk2.0-0 (>=2.24.10  gtk2 >= 2.24.10
+  libnotify4 (>=0.7.5     libnotify >= 0.5.0
+  ======================  ==================
 
 |br|
 
-======================  ==================
-Most Distributions      CentOS 6
-======================  ==================
-libfuse2 (>= 2.8.6)     fuse-libs >= 2.8.3
-libacl1 (>= 2.2.51-1)   libacl >= 2.2.49
-libc6 (>= 2.15)         glibc >= 2.12
-libgcc1 (>= 1:4.6.3)    libgcc >= 4.4.7
-libstdc++6 (>= 4.6.3)   libstdc++ >= 4.4.7
-zlib1g (>= 1:1.2.0)     zlib >= 1.2.3
-psmisc (>=22.15-1)      psmisc >= 22.6
-libgtk2.0-0 (>=2.24.10  gtk2 >= 2.24.10
-libnotify4 (>=0.7.5     libnotify >= 0.5.0
-======================  ==================
-
-|br|
+.. Note:: While it is possible that other configurations may work, only those listed above are fully supported.
 
 .. See `this article <https://support.jungledisk.com/hc/en-us/articles/200812234-Linux-System-Requirements/>`_ for more information on Linux setup.
-
 
 Installation
 ============
 
-All versions are available for download on https://www.jungledisk.com/downloads/.
-
-For Linux CentOS 6, please download the CentOS 6 version `here <https://secure.jungledisk.com/secure/account/downloads.aspx>`_ .
-
+All versions are available for :index:`download` on https://www.jungledisk.com/downloads/. For Linux CentOS 6, please download the CentOS 6 version `here <https://secure.jungledisk.com/secure/account/downloads.aspx>`_ .
 
 Windows
 -------
@@ -69,27 +72,24 @@ Mac
 
 .. Note:: If you have parental controls enabled on your Mac user account, you will need to add `https://s3.amazonaws.com` to the allowed sites list for your account, or you may receive a "connection refused" error.
 
-
 Linux
 -----
-`Select RPM, DEB, or TAR. <https://www.jungledisk.com/downloads/>`_
-|br| For Linux CentOS 6, please download the CentOS 6 version `here <https://secure.jungledisk.com/secure/account/downloads.aspx>`_.
+`Select RPM, DEB, or TAR. <https://www.jungledisk.com/downloads/>`_ For Linux CentOS 6, please download the CentOS 6 version `here <https://secure.jungledisk.com/secure/account/downloads.aspx>`_.
 
 RPM-Based Systems
 ^^^^^^^^^^^^^^^^^
-*The example RPM-based system used here is Fedora with the GNOME desktop environment.*
+.. Note:: The example RPM-based system used here is Fedora with the GNOME desktop environment.
 
+**Via GUI**
 
-|br| **Via GUI**
-
-1. Select the Linux RPM Workgroup download.
-
-2. Once the package has downloaded, open and install it. Follow the prompts on screen.
+#. Select the Linux RPM Workgroup download.
+#. Once the package has downloaded, open and install it. Follow the prompts on screen.
 
 .. image:: _static/005/rpm.png
   :width: 800px
 
 |br|
+
 **Via Terminal**
 
 1. Use wget to download the installer package. Check our `downloads page <https://www.jungledisk.com/downloads/>`_ for the most recent version, and copy the link address of that version.
