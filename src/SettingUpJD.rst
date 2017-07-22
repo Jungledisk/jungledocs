@@ -47,7 +47,10 @@ Version 3.21
 Installation
 ============
 
-All versions are available for :index:`download` on https://www.jungledisk.com/downloads/. For Linux CentOS 6, please download the CentOS 6 version `here <https://secure.jungledisk.com/secure/account/downloads.aspx>`_ .
+:index:`Download Jungle Disk`
+-----------------------------
+
+All versions are available for download on https://www.jungledisk.com/downloads/. For Linux CentOS 6, please download the CentOS 6 version `here <https://secure.jungledisk.com/secure/account/downloads.aspx>`_ .
 
 Windows
 -------
@@ -74,10 +77,12 @@ Mac
 
 Linux
 -----
+
 `Select RPM, DEB, or TAR. <https://www.jungledisk.com/downloads/>`_ For Linux CentOS 6, please download the CentOS 6 version `here <https://secure.jungledisk.com/secure/account/downloads.aspx>`_.
 
 RPM-Based Systems
 ^^^^^^^^^^^^^^^^^
+
 .. Note:: The example RPM-based system used here is Fedora with the GNOME desktop environment.
 
 **Via GUI**
@@ -92,18 +97,15 @@ RPM-Based Systems
 
 **Via Terminal**
 
-1. Use wget to download the installer package. Check our `downloads page <https://www.jungledisk.com/downloads/>`_ for the most recent version, and copy the link address of that version.
-::
+1. Use wget to download the installer package. Check our `downloads page <https://www.jungledisk.com/downloads/>`_ for the most recent version, and copy the link address of that version.::
 
-  wget https://downloads.jungledisk.com/jungledisk/junglediskworkgroup-3211-0.x86_64.rpm
+	wget https://downloads.jungledisk.com/jungledisk/junglediskworkgroup-3211-0.x86_64.rpm
 
-2. Once downloaded, run the installation command. You can also use your desktop GUI to start the apps (this may require you to log-out and log-in.)
-::
+2. Once downloaded, run the installation command. You can also use your desktop GUI to start the apps (this may require you to log-out and log-in.)::
 
-  dnf install junglediskworkgroup
+	dnf install junglediskworkgroup
 
 3. Enter "Y" to approve the install.
-
 4. Configure the settings file.
 
 DEB-Based Systems
@@ -113,10 +115,9 @@ DEB-Based Systems
 
 **12.04**
 
-1. Open up Terminal and run the following command
-::
+1. Open up Terminal and run the following command::
 
-  sudo apt-get install dconf-tools
+	sudo apt-get install dconf-tools
 
 2. Open dconf Editor (app installed by the previous command) and go to desktop > unity > panel.
 3. Add ‘jungledisk’ (surrounded by single-quotes) within the systray-whitelist on the right.
@@ -124,21 +125,17 @@ DEB-Based Systems
 
 **14.04 & 16.04**
 
-1. Open up Terminal and run the following command to add a PPA (Personal Package Archives) to your apt repository list:
-::
+1. Open up Terminal and run the following command to add a PPA (Personal Package Archives) to your apt repository list::
 
-  sudo apt-add-repository ppa:fixnix/indicator-systemtray-unity
+	sudo apt-add-repository ppa:fixnix/indicator-systemtray-unity
 
-2. Next, run:
-::
+2. Next, run::
 
-  sudo apt-get update
+	sudo apt-get update
 
-3. Now, run the following command to install the package:
-::
+3. Now, run the following command to install the package::
 
-  sudo apt-get install indicator-systemtray-unity
-
+	sudo apt-get install indicator-systemtray-unity
 
 Install Jungle Disk, then log back out, and login again. The system tray will then show up.
 
@@ -153,16 +150,12 @@ Install Jungle Disk, then log back out, and login again. The system tray will th
 
 **Via Terminal**
 
-1. Use wget to download the installer package. Check our `downloads page <https://www.jungledisk.com/downloads/>`_ for the most recent version, and copy the link address of that version.
-::
+1. Use wget to download the installer package. Check our `downloads page <https://www.jungledisk.com/downloads/>`_ for the most recent version, and copy the link address of that version.::
+	wget https://downloads.jungledisk.com/jungledisk/junglediskworkgroup_321-1_amd64.deb
 
-  wget https://downloads.jungledisk.com/jungledisk/junglediskworkgroup_321-1_amd64.deb
+2. Once downloaded, run the installation command. You can also use your desktop GUI to start the apps (this may require you to log-out and log-in.)::
 
-2. Once downloaded, run the installation command. You can also use your desktop GUI to start the apps (this may require you to log-out and log-in.)
-::
-
-  sudo dpkg -i junglediskworkgroup_321-1_amd64.deb
-
+	sudo dpkg -i junglediskworkgroup_321-1_amd64.deb
 
 3. Configure the settings file.
 
@@ -171,12 +164,9 @@ TAR-Based Systems
 
 1. Download TAR Linux Workgroup from our `downloads page <https://www.jungledisk.com/downloads/>`_
 
-2. TAR requires compiling all parts into one folder. To do this, open up Terminal and enter:
-::
+2. TAR requires compiling all parts into one folder. To do this, open up Terminal and enter the following. Alternatively, extract, then copy everything from the extacted_dir/usr/local to /usr/local.::
 
-  tar --strip-components=1 -C / -xzvf <package.tar.gz>
-
-Alternatively, extract, then copy everything from the extacted_dir/usr/local to /usr/local.
+	tar --strip-components=1 -C / -xzvf <package.tar.gz>
 
 3. Configure the settings file.
 
