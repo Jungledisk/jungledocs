@@ -7,7 +7,6 @@ Jungle Disk User Guide
    :caption: Table Of Contents
    :numbered:
 
-   ListOfFigures
    WhatIsJD
    SettingUpJD
    IntrotoJDClient
@@ -21,5 +20,6 @@ Jungle Disk User Guide
    WebAccess
    UpdatingJD
    Glossary
+   ListOfFigures
    
 .. ProductSummary? Do we add this or is this too similar to WhatIsJD?
