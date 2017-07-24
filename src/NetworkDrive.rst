@@ -18,7 +18,7 @@ There are a few ways to upload data onto the network drive: via a Simple Backup,
 
 Network Drive
 =============
-.. figure:: _static/004/nd.png
+.. figure:: _static/win/s5.png
   :width: 800px
 Windows.
 
@@ -36,7 +36,7 @@ Mac.
 
 Local Drive Mapping
 ===================
-.. figure:: _static/007/nd3.png
+.. figure:: _static/win/s6.png
   :width: 800px
 Windows.
 
@@ -60,7 +60,7 @@ Mac.
 
 Previous Versions
 =================
-.. figure:: _static/007/pv.png
+.. figure:: _static/win/s7.png
   :width: 800px
 Windows.
 

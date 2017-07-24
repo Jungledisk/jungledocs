@@ -9,18 +9,18 @@ Schedule
 --------
 The schedule can be set as frequently as every 5 times per week and as little as once per week. You will also have the option to set the backup to only run manually, meaning you will need to manually run the backup through the software or no backups will occur. Backups cannot run while the computer is off or in a hibernation state. The backup can run when the computer is in sleep mode; however, the “Wake my computer from sleep for scheduled backups” option must be selected in order to run.
 
-.. image:: _static/012/cc.png
+.. image:: _static/win/s8.png
   :width: 700px
 
 What to Backup
 --------------
-.. image:: _static/012/cc2.png
+.. image:: _static/win/s11.png
   :width: 700px
 
 
 This tab provides a summary of the number of files being backed up, as well as the total amount of data included in the backup. You can change what folders to backup by clicking "Add or Change Backup Folders".
 
-.. image:: _static/012/c3.png
+.. image:: _static/012/s12.png
   :width: 700px
 
 You can exclude a file in a folder by unchecking the box next to it. You also have the option to exclude files by file type - this can be done by clicking the drop down menu next to "Backup:".

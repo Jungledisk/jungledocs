@@ -57,12 +57,12 @@ Mac
 
 2. Enter your system username and password (Not your Jungle Disk username and password).
 
-.. image:: _static/004/j4.png
+.. image:: _static/win/ss11.png
   :width: 500px
 
 3. Select Stop, wait 1 minute, then select Start. (Select Start if the service is currently not running)
 
-.. image:: _static/004/j5.png
+.. image:: _static/win/ss22.png
   :width: 500px
 
 Linux
@@ -93,7 +93,7 @@ Activity Monitor
 
 The Activity Monitor in Windows.
 
-.. figure:: _static/004/o1.png
+.. figure:: _static/004/o43.png
   :width: 500px
 
 The Activity Monitor in Mac OS.
@@ -127,7 +127,7 @@ Application Settings
 ====================
 **Click "Configure", then "Application Settings".**
 
-.. figure:: _static/004/o3.png
+.. figure:: _static/win/s1.png
   :width: 800px
 
 Windows.
@@ -170,7 +170,7 @@ Account Settings
 ----------------
 **Click Configure, then Account Settings under Application Settings.**
 
-.. figure:: _static/004/ac.png
+.. figure:: _static/win/s2.png
   :width: 800px
 
 Windows.
@@ -187,7 +187,7 @@ Mac.
 Network Settings
 ----------------
 
-.. figure:: _static/004/ns.png
+.. figure:: _static/win/s3.png
   :width: 800px
 
 Windows.
@@ -209,7 +209,7 @@ Enables SSL.
 Bandwidth Settings
 ------------------
 
-.. figure:: _static/004/bw.png
+.. figure:: _static/win/s4.png
   :width: 800px
 
 Windows.
